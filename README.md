@@ -8,13 +8,13 @@ Do not add abstracts or reviews.
 Conference papers:
 ```LaTeX
 @InProceedings{AuthorPublicationYear[a-z],
-  author      = {Mustermann, M. and Doe, J.},
+  author      = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
   title       = {{Title Using Headline Capitalization}},
   booktitle   = {Proc. of CONF},
   year        = {xxxx},
   pages       = {xxxx--xxxx},
   address     = {City, (State,) Country},
-  month       = [jan-dec],
+  month       = [jan,feb,mar,apr,may,jun,jul,aug,sep,okt,nov,dec],
   keywords    = {Keyword1; Keyword2; ...},
 }
 ```
@@ -22,14 +22,14 @@ Conference papers:
 Journal arcticles:
 ```LaTeX
 @Article{AuthorPublicationYear[a-z],
-  author    = {Mustermann, M. and Doe, J.},
+  author    = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
   title     = {{Title Using Headline Capitalization}},
   journal 	= {IEEE Transactions on Lorem Ipsum (ABBR.)},
   year      = {xxxx},
   volume    = {xx},
   number    = {x},
   pages     = {xxxx--xxxx},
-  month     = [jan-dec],
+  month     = [jan,feb,mar,apr,may,jun,jul,aug,sep,okt,nov,dec],
   keywords  = {Keyword1; Keyword2; ...}
 }
 ```
