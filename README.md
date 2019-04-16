@@ -30,7 +30,7 @@ Journal arcticles:
   number    = {x},
   pages     = {xxxx--xxxx},
   month     = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec],
-  keywords  = {Keyword1; Keyword2; ...}
+  keywords  = {Keyword1; Keyword2; ...},
 }
 ```
 
@@ -46,15 +46,36 @@ ITU standard:
 ```
 
 Homepage:
-```
-LaTeX
+```LaTeX
 @Misc{SciPy,
   title                    = {{SciPy: Open Source Scientific Tools for Python}},
-
   author                   = {E. Jones and T. Oliphant and P. Peterson and others},
   note                     = {[Online; accessed <today>]},
   year                     = {2001--},
-
   url                      = {http://www.scipy.org/}
+}
+```
+
+Book:
+```LaTeX
+@Book{AuthorPublicationYear[a-z],
+  title     = {Deep Lorem Ipsum with PyTorch},
+  publisher = {Publisher Name},
+  year      = {XXXX},
+  author    = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
+  keywords  = {Keyword1; Keyword2; ...},
+}
+```
+arXiv e-Print:
+```LaTeX
+@Article{AuthorPublicationYear[a-z],
+  author        = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
+  title         = {{Title Using Headline Capitalization}},
+  journal       = {arXiv},
+  year          = {XXXX},
+  month         = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec],
+  archiveprefix = {arXiv},
+  eprint        = {XXXX.XXXXX}, # e-print number
+  keywords      = {Keyword1; Keyword2; ...},
 }
 ```
