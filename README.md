@@ -1,8 +1,7 @@
-# bibliography
+# Bibliography
 Group bibliography
 
-Define some syntax here, e.g.,: Key: AuthorPublicationYear[a-z], Pages: {123--125}
-
+## Templates
 Do not add abstracts or reviews.
 
 Conference papers:
@@ -79,3 +78,23 @@ arXiv e-Print:
   keywords      = {Keyword1; Keyword2; ...},
 }
 ```
+*Headline Capitalization: Capitalize words with four or more letters.*
+
+## Abbreviations for commonly used conferences
+| Conference                                                              | booktitle in bibtex  |
+| ----------------------------------------------------------------------- | -------------------- |
+| National Conference on Artificial Intelligence                          | Proc. of AAAI        | 
+| British Machine Vision Conference                                       | Proc. of BMVC        | 
+| Conference on Computer Vision and Pattern Recognition                   | Proc. of CVPR        |
+| European Conference on Computer Vision                                  | Proc. of ECCV        |
+| International Conference on Computer Vision                             | Proc. of ICCV        |
+| IEEE International Confernence on Image Processing                      | Proc. of ICIP        |
+| International Conference on Learning Representations                    | Proc. of ICLR        |
+| International Conference on Machine Learning                            | Proc. of ICML        |
+| Annual Conference of the International Speech Communication Association | Proc. of INTERSPEECH |
+| Conference on Neural Information Processing Systems                     | Proc. of NIPS        |
+
+
+*For workshops that were in conjunction with a conference add " - Workshops" to the booktitle, e.g., "Proc. of CVPR - Workshops"*
+
+
