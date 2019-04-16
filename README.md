@@ -14,7 +14,7 @@ Conference papers:
   year        = {xxxx},
   pages       = {xxxx--xxxx},
   address     = {City, (State,) Country},
-  month       = [jan,feb,mar,apr,may,jun,jul,aug,sep,okt,nov,dec],
+  month       = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec],
   keywords    = {Keyword1; Keyword2; ...},
 }
 ```
@@ -29,7 +29,7 @@ Journal arcticles:
   volume    = {xx},
   number    = {x},
   pages     = {xxxx--xxxx},
-  month     = [jan,feb,mar,apr,may,jun,jul,aug,sep,okt,nov,dec],
+  month     = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec],
   keywords  = {Keyword1; Keyword2; ...}
 }
 ```
