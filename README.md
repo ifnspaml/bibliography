@@ -97,6 +97,8 @@ arXiv e-Print:
 | IEEE Intelligent Transportation Systems Conference                       | Proc. of ITSC        |
 | IEEE Intelligent Vehicles Symposium                                      | Proc. of IV          |
 | Conference on Neural Information Processing Systems                      | Proc. of NIPS        |
+| IEEE Workshop on Applications of Signal Processing to Audio and Acoustics| Proc. of WASPAA      |
+| International Workshop on Acoustic Signal Enhancement                    | Proc. of IWAENC      |
 
 
 *For workshops that were in conjunction with a conference add " - Workshops" to the booktitle, e.g., "Proc. of CVPR - Workshops"*
