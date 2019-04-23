@@ -93,12 +93,13 @@ arXiv e-Print:
 | IEEE International Confernence on Image Processing                       | Proc. of ICIP        |
 | International Conference on Learning Representations                     | Proc. of ICLR        |
 | International Conference on Machine Learning                             | Proc. of ICML        |
-| Annual Conference of the International Speech Communication Association  | Proc. of INTERSPEECH |
+| Annual Conference of the International Speech Communication Association  | Proc. of Interspeech |
 | IEEE Intelligent Transportation Systems Conference                       | Proc. of ITSC        |
 | IEEE Intelligent Vehicles Symposium                                      | Proc. of IV          |
 | Conference on Neural Information Processing Systems                      | Proc. of NIPS        |
 | IEEE Workshop on Applications of Signal Processing to Audio and Acoustics| Proc. of WASPAA      |
 | International Workshop on Acoustic Signal Enhancement                    | Proc. of IWAENC      |
+| European Signal Processing Conference                                    | Proc. of EUSIPCO     |
 
 
 *For workshops that were in conjunction with a conference add " - Workshops" to the booktitle, e.g., "Proc. of CVPR - Workshops"*
