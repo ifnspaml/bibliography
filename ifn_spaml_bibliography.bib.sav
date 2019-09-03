@@ -72,7 +72,7 @@
 }
 
 @InProceedings{Cordts2016,
-  author    = {Marius Cordts and Mohamed Omran and Sebastian Ramos and Timo Rehfeld and Markus Enzweiler and Rodrigo Benenson and Uwe Franke and Stefan Roth and Bernt Schiele},
+  author    = {Mariu Cordts and Mohamed Omran and Sebastian Ramos and Timo Rehfeld and Markus Enzweiler and Rodrigo Benenson and Uwe Franke and Stefan Roth and Bernt Schiele},
   title     = {{The Cityscapes Dataset for Semantic Urban Scene Understanding}},
   booktitle = {Proc. of CVPR},
   year      = {2016},
@@ -3915,6 +3915,116 @@ keywords = {OML2019;},
   address   = {San Diego, CA, USA},
   month     = jun,
   keywords  = {Depth Prediction},
+}
+
+@InProceedings{Newcombe2011,
+  author    = {R. A. Newcombe and S. J. Lovegrove and A. J. Davison},
+  title     = {{DTAM: Dense Tracking and Mapping in Real-Time}},
+  booktitle = {Proc. of ICCV},
+  year      = {2011},
+  pages     = {2320--2327},
+  address   = {Barcelona, Spain},
+  month     = nov,
+  keywords  = {Depth Prediction},
+}
+
+@InProceedings{Akhter2009,
+  author    = {I. Akhter and Y. Sheikh and S. Khan and T. Kanade},
+  title     = {{Nonrigid Structure from Motion in Trajectory Space}},
+  booktitle = {Proc. of NIPS},
+  year      = {2009},
+  pages     = {41--48},
+  address   = {Vancouver, BC, Canada},
+  month     = dec,
+  keywords  = {Depth Prediction},
+}
+
+@InProceedings{Zhang2019a,
+  author    = {Z. Zhang and Z. Cui and C. Xu and Y. Yan and N. Sebe and J. Yang},
+  title     = {{Pattern-Affinitive Propagation Across Depth, Surface Normal and Semantic Segmentation}},
+  booktitle = {Proc. of CVPR},
+  year      = {2019},
+  pages     = {4106--4115},
+  address   = {Long Beach, CA, USA},
+  month     = jun,
+}
+
+@InProceedings{Zhang2019b,
+  author    = {F. Zhang and V. Prisacariu and R. Yang and P. H. Torr},
+  title     = {{GA-Net: Guided Aggregation Net for End-to-end Stereo Matching}},
+  booktitle = {Proc. of CVPR},
+  year      = {2019},
+  pages     = {185--194},
+  address   = {Long Beach, CA, USA},
+  month     = jun,
+  keywords  = {Depth Prediction},
+}
+
+@InProceedings{Rhe2017,
+  author    = {Z. Rhe and J. Yan and B. Ni and B. Liu and X. Yang and H. Zha},
+  title     = {{Unsupervised Deep Learning for Optical Flow Estimation}},
+  booktitle = {Proc. of AAAI},
+  year      = {2017},
+  pages     = {1495--1501},
+  address   = {San Francisco, CA, USA},
+  month     = feb,
+  keywords  = {Optical Flow},
+}
+
+@InProceedings{Liu2019,
+  author    = {P. Liu and M. Lyu and I. King and J. Xu},
+  title     = {{SelFlow: Self-Supervised Learning of Optical Flow}},
+  booktitle = {Proc. of CVPR},
+  year      = {2019},
+  pages     = {4571--4580},
+  address   = {Long Beach, CA, USA},
+  month     = jun,
+  keywords  = {Optical Flow},
+}
+
+@InProceedings{Kuznietsov2017,
+  author    = {Y. Kuznietsov and J. Stuckler and B. Leibe},
+  title     = {{Semi-Supervised Deep Learning for Monocular Depth Map Prediction}},
+  booktitle = {Proc. of CVPR},
+  year      = {2017},
+  pages     = {6647--6655},
+  address   = {Honolulu, HI, USA},
+  month     = jul,
+  keywords  = {Depth Prediction},
+}
+
+@InProceedings{Laina2017,
+  author    = {I. Laina and C. Rupprecht and V. Belagiannis and F. Tombari and N. Navab},
+  title     = {{Deeper Depth Prediction with Fully Convolutional Residual Networks}},
+  booktitle = {Proc. of 3DV},
+  year      = {2017},
+  pages     = {239--248},
+  address   = {Stanford, CA, USA},
+  month     = oct,
+  keywords  = {Depth Prediction},
+}
+
+@Article{Liu2016,
+  author   = {F. Liu and C. Shen and G. Lin and I. Reid},
+  title    = {{Learning Depth from Single Monocular Images Using Deep Convolutional Neural Fields}},
+  journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year     = {2016},
+  volume   = {38},
+  number   = {10},
+  pages    = {2024--2039},
+  month    = oct,
+  keywords = {Depth Prediction},
+}
+
+@InProceedings{Kendall2018,
+  author    = {A. Kendall and Y. Gal and R. Cipolla},
+  title     = {{Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics}},
+  booktitle = {Proc. of CVPR},
+  year      = {2018},
+  pages     = {7482--7491},
+  address   = {Salt Lake City, UT, USA},
+  month     = jun,
+  keywords  = {Depth Prediction Semantic Segmentation},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
