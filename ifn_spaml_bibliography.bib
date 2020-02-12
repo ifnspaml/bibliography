@@ -367,6 +367,7 @@
   pages     = {1--13},
   address   = {Toulon, France},
   month     = apr,
+  comment   = {Align the student representation of some layers to be equal to the teacher representation of some layer. The authors term it attention transfer. Basically a feature matching approach.},
   keywords  = {Computer Vision; Teacher-Student},
 }
 
@@ -1210,6 +1211,7 @@ month       = jun
   pages     = {1--9},
   address   = {Montr{\' e}al, QC, Canada},
   month     = dec,
+  comment   = {One of the main works in using teacher-student approaches. Her the term knowledge distillation is introduced.},
   keywords  = {Computer Vision; Teacher-Student},
 }
 
@@ -1221,7 +1223,8 @@ month       = jun
   pages     = {2893--2903},
   address   = {Montr\' {e}al, QC, Canada},
   month     = dec,
-  keywords    = {Computer Vision; Teacher-Student},
+  comment   = {Standard convolutions are replaced with cheaper ones in terms of efficiency. Then, knowledge distillation combined with attention transfer is used to distill from the original network.},
+  keywords  = {Computer Vision; Teacher-Student},
 }
 
 @InProceedings{Ba2014,
@@ -1232,7 +1235,8 @@ month       = jun
   pages     = {2654--2662},
   address   = {Montr\' {e}al, QC, Canada},
   month     = dec,
-  keywords    = {Computer Vision; Teacher-Student},
+  comment   = {Arguing that DNNs don't really have to be deep by using a shallow net which learns from one deep net or an ensemble of deeper nets.},
+  keywords  = {Computer Vision; Teacher-Student},
 }
 
 @InProceedings{Buciluva2006,
@@ -1243,6 +1247,7 @@ month       = jun
   pages     = {535--541},
   address   = {Philadelphia, PA, USA},
   month     = aug,
+  comment   = {Basically first paper applying teacher-student like approaches for model compression.},
   keywords  = {Computer Vision; Teacher-Student},
 }
 
@@ -1254,7 +1259,8 @@ month       = jun
   pages     = {1910--1914},
   address   = {Singapore},
   month     = sep,
-  keywords    = {Computer Vision; Teacher-Student},
+  comment   = {Using cross-entropy between teacher and student network on a large unlabeled set.},
+  keywords  = {Computer Vision; Teacher-Student},
 }
 
 @InProceedings{Romero2015,
@@ -1265,6 +1271,7 @@ month       = jun
   pages     = {1--13},
   address   = {San Diego, CA, USA},
   month     = may,
+  comment   = {First train the student up to a specific guided layer under guidance of the teacher's hint layer. Then use knowledge distillation.},
   keywords  = {Computer Vision; Teacher-Student},
 }
 
@@ -1276,7 +1283,8 @@ month       = jun
   pages     = {1--12},
   address   = {San Juan, Puerto Rico},
   month     = may,
-  keywords    = {Computer Vision; Teacher-Student},
+  comment   = {Concept of going wider or deeper without changing the original transformation. Here, the student is more complex than the teacher network and can be further trained after transferring the knowledge from the teacher.},
+  keywords  = {Computer Vision; Teacher-Student},
 }
 
 @InProceedings{Yim2017,
@@ -1287,7 +1295,8 @@ month       = jun
   pages     = {4133--4141},
   address   = {Honolulu, HI, USA},
   month     = jul,
-  keywords    = {Computer Vision; Teacher-Student},
+  comment   = {Align the student representation transformation betwen two layers to be equal to the teacher representation transformation betwen two layers. Basically a feature transformation matching approach},
+  keywords  = {Computer Vision; Teacher-Student},
 }
 
 @InProceedings{Chen2015,
@@ -2050,7 +2059,7 @@ month       = jun
   address   = {Salt Lake City, UT, USA},
   month     = jun,
   comment   = {A pretty extensive analysis on the robustness of semantic segmentation models to adversarial attacks.},
-  keywords  = {Computer Vision; Semantic Segmentation; Adversarial Attacks},
+  keywords  = {Computer Vision; Semantic Segmentation; Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Yu2018a,
@@ -2207,7 +2216,7 @@ month       = jun
   address   = {Toulon, France},
   month     = apr,
   comment   = {Introducing the least-likely method as a targeted attack and also the iterative variant of FGSM.},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Szegedy2014,
@@ -2219,7 +2228,7 @@ month       = jun
   address   = {Montr\' {e}al, QC, Canada},
   month     = dec,
   comment   = {First paper to fnd and term adversarial examples},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Goodfellow2015,
@@ -2231,7 +2240,7 @@ month       = jun
   address   = {San Diego, CA, USA},
   month     = may,
   comment   = {Introducing the Fast Gradient Sign Method (FGSM) as a non-targeted attack. Mentioning Adversarial Training.},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Fawzi2016,
@@ -2243,7 +2252,7 @@ month       = jun
   address   = {Barcelona, Spain},
   month     = dec,
   comment   = {Analysis of robustness of classifier. Curvature constraints help in robustness towards random noise.},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness},
 }
 
 @InProceedings{Metzen2017,
@@ -2255,7 +2264,7 @@ month       = jun
   address   = {Venice, Italy},
   month     = oct,
   comment   = {Introducing universal adversarial perturbations for semantic segmentation. There are two kinds: static attacks with one target or dynamic attacks by targetting the removement of some classes.},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Fischer2017,
@@ -2267,7 +2276,7 @@ month       = jun
   address   = {Toulon, France},
   month     = apr,
   comment   = {adversarial examples for semantic segmentation showing an attack which is capable of removing certrain classes.},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Bolte2019,
@@ -2461,7 +2470,7 @@ month       = jun
   address   = {Toulon, France},
   month     = sep,
   comment   = {Least-likely method + FGSM (single-step and iterative) with big models and big datasets (ImageNet). Adversarial training does help for single-step attacks but not iterative attacks. Iterative attacks are not really transferable. Increasing model capacity does help in robustness when combined with adversarial training.},
-  keywords  = {Computer Vision; Adversarial Attacks},
+  keywords  = {Computer Vision; Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Kingma2015,
@@ -4009,12 +4018,13 @@ keywords = {OML2019;},
 
 @InProceedings{Ye2019,
   author    = {Ye, Jingwen and Ji, Yixin and Wang, Xinchao and Ou, Kairi and Tao, Dapeng and Song, Mingli},
-  booktitle = {Proc. of CVPR},
   title     = {{Student Becoming the Master: Knowledge Amalgamation for Joint Scene Parsing, Depth Estimation, and More}},
+  booktitle = {Proc. of CVPR},
   year      = {2019},
+  pages     = {2829--2838},
   address   = {Long Beach, CA, USA},
   month     = jun,
-  pages     = {2829--2838},
+  comment   = {multi-task learning is incorporated, where two expert teachers (here semantic segmentation and depth estimation) to amalgamate features from two task and further used to train a two decoder branch network. },
   keywords  = {Teacher-Student, Speech Recognition},
 }
 
@@ -4059,6 +4069,7 @@ keywords = {OML2019;},
   pages     = {6445--6449},
   address   = {Brighton, England},
   month     = may,
+  comment   = {Conditonal teacher-student learning with the condition that the most-likely class of the teacher matches the ground truth. Otherwise the ground truth is used.},
   keywords  = {Teacher-Student, Speech Recognition},
 }
 
@@ -4148,7 +4159,8 @@ keywords = {OML2019;},
   pages     = {1--9},
   address   = {Long Beach, CA, USA},
   month     = jun,
-  keywords  = {Teacher-Student, Speech Recognition},
+  comment   = {Elaborating on using the inverse feature matching loss to increase the robustness of adaptating networks.},
+  keywords  = {Teacher-Student, Speech Recognition, Adversarial Attacks, Robustness, Adversarial Defense},
 }
 
 @InProceedings{Zou2018a,
@@ -4203,6 +4215,7 @@ keywords = {OML2019;},
   pages     = {4260--4267},
   address   = {New Orleans, LA, USA},
   month     = feb,
+  comment   = {GAN approach, where the Generator is the student and the discriminator distinguished between teacher and student features.},
   keywords  = {Teacher-Student, Speech Recognition},
 }
 
@@ -4229,7 +4242,7 @@ keywords = {OML2019;},
   archiveprefix = {arXiv},
   comment       = {Introducing a data-independant approach for generating universal adversarial examples. The aim is to maximize the activation of some layers. Give an even better overview and show the effectiveness on several computer vision tasks.},
   eprint        = {1801.08092},
-  keywords      = {Adversarial Attacks, Speech Recognition},
+  keywords      = {Adversarial Attacks, Speech Recognition; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Mahjourian2018,
@@ -4284,6 +4297,7 @@ keywords = {OML2019;},
   pages     = {1285--1294},
   address   = {Halifax, NS, Canada},
   month     = aug,
+  comment   = {Using multiple teachers to learn from. Here, not only the outputs of the teachers but also the intermediate feature representations are used.},
   keywords  = {Teacher-Student, Speech Recognition},
 }
 
@@ -4296,7 +4310,7 @@ keywords = {OML2019;},
   address   = {Venice, Italy},
   month     = oct,
   comment   = {introducing a new attack for object detection and semantic segmentation, namely, Dense Adversary Generation (DAG). They showed that the perturbations can be transferred across networks with different training data, based on different architectures, and different recognition tasks.},
-  keywords  = {Adversarial Attacks, Speech Recognition},
+  keywords  = {Adversarial Attacks, Speech Recognition; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Uhrig2017,
@@ -4330,7 +4344,7 @@ keywords = {OML2019;},
   address   = {London, UK},
   month     = sep,
   comment   = {Introducing a data-independant approach for generating universal adversarial examples. The aim is to maximize the activation of some layers.},
-  keywords  = {Adversarial Attacks, Speech Recognition},
+  keywords  = {Adversarial Attacks, Speech Recognition; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Moosavi-Dezfooli2017,
@@ -4342,7 +4356,7 @@ keywords = {OML2019;},
   address   = {Honolulu, HI, USA},
   month     = jul,
   comment   = {First paper mentioning universal adversarial perturbations.},
-  keywords  = {Adversarial Attacks, Speech Recognition},
+  keywords  = {Adversarial Attacks, Speech Recognition; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Godard2017,
@@ -4365,7 +4379,7 @@ keywords = {OML2019;},
   address   = {Las Vegas, NV, USA},
   month     = jun,
   comment   = {A single-image adversarial attack called DeepFool is proposed. Iterative approach aiming at a minimal perturbation. Non-targeted attack.},
-  keywords  = {Adversarial Attacks, Speech Recognition},
+  keywords  = {Adversarial Attacks, Speech Recognition; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Garg2016,
@@ -6011,7 +6025,7 @@ keywords   = {Computer Vision; Prediction},
   volume   = {7},
   pages    = {5695--5706},
   month    = dec,
-  keywords = {Computer Vision; Anomaly Detection; Adversarial Attacks},
+  keywords = {Computer Vision; Anomaly Detection; Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @Article{Terwillinger2018,
@@ -6524,13 +6538,13 @@ keywords   = {Computer Vision; Prediction},
 
 @InProceedings{Hendrycks2019a,
   author    = {Hendrycks, Dan and Mazeika, Mantas and Kadavath, Saurav and Song, Dawn},
-  booktitle = {Proc. of NeurIPS},
   title     = {{Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty}},
+  booktitle = {Proc. of NeurIPS},
   year      = {2019},
+  pages     = {15637--15648},
   address   = {Vancouver, BC, Canada},
   month     = dec,
-  pages     = {15637--15648},
-  keywords  = {Classification, Robustness},
+  keywords  = {Classification, Robustness, Adversarial Defense},
 }
 
 @InProceedings{Novosel2019,
@@ -6860,6 +6874,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {2604--2613},
   address   = {Long Beach, CA, USA},
   month     = jun,
+  comment   = {Combination of knowledge distillation through output probabilities, matching of feature similarities as pair-wise distillation, and holistic distillation by a GAN discriminator. The whole approach is done for semantic segmentation.},
   keywords  = {Teacher-Student; Semantic Segmentation},
 }
 
@@ -6953,12 +6968,13 @@ keywords   = {Computer Vision; Prediction},
 
 @InProceedings{Xie2018,
   author    = {Jiafeng Xie and Bing Shuai and Jian-Fang Hu and Jingyang Lin and Wei-Shi Zheng},
-  booktitle = {Proc. of BMVC},
   title     = {{Improving Fast Segmentation With Teacher-student Learning}},
+  booktitle = {Proc. of BMVC},
   year      = {2018},
+  pages     = {1--13},
   address   = {Newcastle, England},
   month     = sep,
-  pages     = {1--13},
+  comment   = {Using teacher-student learning for semantic segmentation by incorporating probability norms (l2 loss between the probability scores) and a consistency norm (l2 loss between the logits of the 8-neighboorhood pixel p and the logit of pixel p).},
   keywords  = {Teacher-Student; Semantic Segmentation},
 }
 
@@ -7025,6 +7041,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {1607--1616},
   address   = {Stockholm, Sweden},
   month     = jul,
+  comment   = {Combination of self-distillation (first train on labels, then reinitialize the network again and use the already trained one for supervision and repeat several times. Thus, born again.) and then multi-teacher single-student learning.},
   keywords  = {Teacher-Student},
 }
 
@@ -7036,6 +7053,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {6356--6364},
   address   = {Honolulu, HI, USA},
   month     = jul,
+  comment   = {aligning features at RoI position to extract knowledge from the teacher to the student.},
   keywords  = {Teacher-Student},
 }
 
@@ -7156,7 +7174,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {0--0},
   address   = {New York, NY, USA},
   month     = feb,
-  keywords  = {Teacher-Student, Adversarial Attacks},
+  keywords  = {Teacher-Student, Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Liu2019c,
@@ -7168,7 +7186,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {New model-agnostic technique based on JPEG compression which surpasses quilting and total variation minimization as a defense.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Yang2019a,
@@ -7290,7 +7308,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Finding: adversarial examples lead to noise in intermediate layers. Proposal is to use denoising layers, e. g., non-local means.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{He2019c,
@@ -7302,7 +7320,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Injecting gaussian noise at each layer on either weights or activation by solving the min-max problem. Motivation: Gaussian noise as data augmentation is pretty powerful for regularization.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Xie2019a,
@@ -7314,7 +7332,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Better transferability of attacks by additionally applying random transformations on the input while optimizing.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Dong2019,
@@ -7326,7 +7344,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {basically showing the insecurity of state-of-the-art},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Rony2019,
@@ -7338,7 +7356,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {introducing a new efficient L2 norm adversarial attack called Decoupled Direction and Norm (DDN) which is tackling the strong C&W attack. First in NIPS 2018 Adversarial Vision Challenge in untargeted attacks and third in targeted attacks and robust models.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Jia2019,
@@ -7350,7 +7368,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {DNN based compression method for defense},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Raff2019,
@@ -7362,7 +7380,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Barrage of randomized transformation to stem a defense method against strong attacks, such as PGD, on ImageNet (hard to defend dataset). The Novelty here is to really use many random transformations instead of only a few.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Stutz2019,
@@ -7374,7 +7392,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Arguing that Robustness and Generalization is indeed both possible but it depends on the architecture and model},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness},
 }
 
 @InProceedings{Theagarajan2019,
@@ -7386,7 +7404,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Concentrating sample probability to adversarial-free zone and thus neutralize attacks. Basically preprocessing via PixelCNN to probailistically map adversarial examples back to a safer space.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Inkawhich2019,
@@ -7398,7 +7416,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Long Beach, CA, USA},
   month     = jun,
   comment   = {Change the representation of a source sample at Layer L to the representation of a target image at layer L. This attack yields highly transferable targeted examples.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Goodfellow2019,
@@ -7410,18 +7428,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {New Orleans, LA, USA},
   month     = may,
   comment   = {Argue that dynamic models are necessary that change every run.},
-  keywords  = {Adversarial Attacks},
-}
-
-@InProceedings{He2019d,
-  author    = {Zhezhi He and Adnan S. Rakin and Deliang Fan},
-  title     = {{Parametric Noise Injection: Trainable Randomness to Improve Deep Neural Network Robustness Against Adversarial Attack}},
-  booktitle = {Proc. of CVPR},
-  year      = {2019},
-  pages     = {588--597},
-  address   = {Long Beach, CA, USA},
-  month     = jun,
-  keywords  = {Adversarial Attacks},
+  keywords  = {Robustness; Adversarial Defense},
 }
 
 @InProceedings{Moosavi-Dezfooli2019,
@@ -7432,7 +7439,8 @@ keywords   = {Computer Vision; Prediction},
   pages     = {9078--9086},
   address   = {Long Beach, CA, USA},
   month     = jun,
-  keywords  = {Adversarial Attacks},
+  comment   = {Evidence of the existence of a strong relation between large robustness and small curvature. They propose a new regularizer (CURE) that minimizes directly the curvature of the loss surface.},
+  keywords  = {Robustness; Adversarial Defense},
 }
 
 @InProceedings{Zhu2019a,
@@ -7569,7 +7577,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {data-independent universal adversarial perturbation combined with monte carlo to extract the model uncertainty for more robust UAPs},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Mustafa2019,
@@ -7581,7 +7589,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {intermediate feature representations are class-wise disentangled by forcing a class-wise polytope shape with maximum distance to other classes' polytopes. This way, distinct and distant decision regions are learned.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Croce2019,
@@ -7593,7 +7601,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {introducing sparse and imperceivable black-box attack},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Bai2019,
@@ -7605,7 +7613,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {propose to combine the defense method PixelDefend with Hilbert scan for better defense },
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Finlay2019,
@@ -7617,7 +7625,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {New attack is proposed which uses the logarithmic barrier method and directly solves the optimization problem of adversarial example definition.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Attack},
 }
 
 @InProceedings{Chen2019e,
@@ -7629,7 +7637,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {A new training paradigm/loss is proposed to increase the robustness without compromising performance, namely the guided complement entropy. It basically uses the information of both, the incorrect classes and the GT classes with an additional guidance factor.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Gupta2019,
@@ -7641,7 +7649,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Seoul, Korea},
   month     = oct,
   comment   = {New non-differential defense method is proposed which shows to be hard to use gradient approximation methods on. It combines a class-based regional image inpainting and wavelet based image denoising.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Tung2019,
@@ -7677,7 +7685,7 @@ keywords   = {Computer Vision; Prediction},
   address   = {Vancouver, BC, Canada},
   month     = apr,
   comment   = {Unifying and broad view of prior work by addressing through robust optimization. Referring to projected gradient descent (PGD) as a universal first-order adversary, i.e., the strongest attack utilizing the local first order information about the underlying DNN.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks; Robustness, Adversarial Defense},
 }
 
 @InProceedings{Dong2018a,
@@ -7689,7 +7697,110 @@ keywords   = {Computer Vision; Prediction},
   address   = {Salt Lake City, UT, USA},
   month     = jun,
   comment   = {Moment-based iterative algorithm. Won NIPS 2017 non-targeted and targeted attack competition.},
-  keywords  = {Adversarial Attacks},
+  keywords  = {Adversarial Attacks, Robustness, Adversarial Attack},
+}
+
+@Article{Holstroem1992,
+  author   = {Lasse Holstr\"{o}m and Petri Koistinen},
+  title    = {{Using Additive Noise in Backpropagation-Training}},
+  journal  = {IEEE Transactions on Neural Networks},
+  year     = {1992},
+  volume   = {3},
+  number   = {1},
+  pages    = {24--38},
+  month    = jan,
+  keywords = {Adversarial Attacks; Robustness; Adversarial Defense},
+}
+
+@InProceedings{Assion2019,
+  author    = {Felix Assion and Peter Schlicht and Florens Greßner and Wiebke G\"{u}nther and Fabian H\"{u}ger and Nico M. Schmidt and Umair Rasheed},
+  title     = {{The Attack Generator: A Systematic Approach Towards Constructing Adversarial Attacks}},
+  booktitle = {Proc. of CVPR - Workshops},
+  year      = {2019},
+  pages     = {1--12},
+  address   = {Long Beach, CA, USA},
+  month     = jun,
+  keywords  = {Adversarial Attacks, Robustness, Adversarial Attack},
+}
+
+@InProceedings{Athalye2018,
+  author    = {Anish Athalye and Nicholas Carlini and David Wagner},
+  title     = {{Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples}},
+  booktitle = {Proc. of ICML},
+  year      = {2018},
+  pages     = {274--283},
+  address   = {Stockholm, Sweden},
+  month     = jul,
+  comment   = {New attacks which circumvents state-of-the-art defenses relying on obfuscated gradients (kind of gradient masking).},
+  keywords  = {Adversarial Attacks, Robustness},
+}
+
+@Article{Bengler2014,
+  author   = {Klaus Bengler and Klaus Dietmayer and Berthold Farber and Markus Maurer and Christoph Stiller and Hermann Winner},
+  title    = {{Three Decades of Driver Assistance Systems: Review and Future Perspectives}},
+  journal  = {{IEEE Intelligent Transportation Systems Magazine}},
+  year     = {2014},
+  volume   = {6},
+  number   = {4},
+  pages    = {6--22},
+  month    = oct,
+  keywords = {Autonomous Driving},
+}
+
+@InProceedings{Carlini2017,
+  author    = {Nicholas Carlini and David Wagner},
+  title     = {{Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods}},
+  booktitle = {Proc. of AISec},
+  year      = {2017},
+  pages     = {3--14},
+  address   = {New York, NY, USA},
+  month     = nov,
+  keywords  = {Adversarial Attacks, Robustness, Adversarial Attack},
+}
+
+@InProceedings{Guo2018,
+  author    = {Chuan Guo and Mayank Rana and Moustapha Ciss\'{e} and Laurens van der Maaten},
+  title     = {{Countering Adversarial Images using Input Transformations}},
+  booktitle = {Proc. of ICLR},
+  year      = {2018},
+  pages     = {1--12},
+  address   = {Vancouver, BC, Canada},
+  month     = apr,
+  keywords  = {Robustness, Adversarial Defense},
+}
+
+@InProceedings{Buades2005,
+  author    = {Antoni Buades and Bartomeu Coll and Jean-Michel Morel},
+  title     = {{A Non-Local Algorithm for Image Denoising}},
+  booktitle = {Proc. of CVPR},
+  year      = {2005},
+  pages     = {60--65},
+  address   = {San Diego, CA, USA},
+  month     = jun,
+  keywords  = {Adversarial Defense},
+}
+
+@InProceedings{Carlini2017a,
+  author    = {Nicholas Carlini and David A. Wagner},
+  title     = {{Towards Evaluating the Robustness of Neural Networks}},
+  booktitle = {Proc. of SP},
+  year      = {2017},
+  pages     = {39--57},
+  address   = {San Jose, CA, USA},
+  month     = may,
+  keywords  = {Adversarial Attack},
+}
+
+@Article{Bishop1995,
+  author   = {Chris M. Bishop},
+  title    = {{Training with Noise is Equivalent to Tikhonov Regularization}},
+  journal  = {Neural Computation},
+  year     = {1995},
+  volume   = {7},
+  number   = {1},
+  pages    = {108--116},
+  month    = jan,
+  keywords = {Robustness},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -7711,5 +7822,8 @@ keywords   = {Computer Vision; Prediction},
 1 KeywordGroup:Tools\;0\;keywords\;Tools\;0\;0\;1\;\;\;\;;
 1 KeywordGroup:Teacher-Student\;0\;keywords\;Teacher-Student\;0\;0\;1\;\;\;\;;
 1 KeywordGroup:Semantic Segmentation\;0\;keywords\;Semantic Segmentation\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:Adversarial Attacks\;0\;keywords\;Adversarial Attacks\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:Robustness\;0\;keywords\;Robustness\;0\;0\;1\;\;\;\;;
+2 KeywordGroup:Adversarial Attack\;0\;keywords\;Adversarial Attack\;0\;0\;1\;\;\;\;;
+2 KeywordGroup:Adversarial Defense\;0\;keywords\;Adversarial Defense\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:Autonomous Driving\;0\;keywords\;Autonomous Driving\;0\;0\;1\;\;\;\;;
 }
