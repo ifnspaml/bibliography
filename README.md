@@ -100,6 +100,7 @@ arXiv e-Print:
 | IEEE Workshop on Applications of Signal Processing to Audio and Acoustics| Proc. of WASPAA      |
 | International Workshop on Acoustic Signal Enhancement                    | Proc. of IWAENC      |
 | European Signal Processing Conference                                    | Proc. of EUSIPCO     |
+| IEEE Winter Conference on Applications of Computer Vision                | Proc. of WACV        |
 
 
 *For workshops that were in conjunction with a conference add " - Workshops" to the booktitle, e.g., "Proc. of CVPR - Workshops"*
