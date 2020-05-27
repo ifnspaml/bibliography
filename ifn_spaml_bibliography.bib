@@ -382,7 +382,6 @@
   keywords      = {Object detection; Stability; ...},
 }
 
-=======
 @InProceedings{Hendrycks2019,
   author    = {Dan Hendrycks and Thomas Dietterich},
   title     = {{Benchmarking Neural Network Robustness to Common Corruptions and Perturbations}},
@@ -1236,7 +1235,7 @@ month       = jun
   pages     = {2654--2662},
   address   = {Montr\' {e}al, QC, Canada},
   month     = dec,
-  comment   = {Arguing that DNNs don't really have to be deep by using a shallow net which learns from one deep net or an ensemble of deeper nets.},
+  comment   = {Arguing that DNNs don't really have to be deep by using a shallow net which learns from one deep net or an ensemble of deeper nets. Regressing Logits via L2 loss.},
   keywords  = {Computer Vision; Teacher-Student},
 }
 
@@ -6899,6 +6898,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {578--587},
   address   = {Long Beach, CA, USA},
   month     = jun,
+  comment   = {Compact FCNs with a big striding is used. To overcome the incosistency with the teacher, the features are transformed into a latent domain using a pretrained autoencoder. Additionally an affinity distillation module is used to capture long-range dependencies by using the distiance between the affinity matrices of both, teacher and student.},
   keywords  = {Teacher-Student; Semantic Segmentation},
 }
 
@@ -6910,6 +6910,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {3967--3976},
   address   = {Long Beach, CA, USA},
   month     = jun,
+  comment   = {Distill the relations of outputs instead of just a pointwise distillation of the output.},
   keywords  = {Teacher-Student},
 }
 
@@ -6965,6 +6966,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {4794--4802},
   address   = {Seoul, Korea},
   month     = oct,
+  comment   = {Extensive analysis of teacher-student learning. Too small students are unable to mimic large teachers. Step-wise distillation does not help. Solution is an early stopping of the teacher.},
   keywords  = {Teacher-Student},
 }
 
@@ -6976,6 +6978,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {3713--3722},
   address   = {Seoul, Korea},
   month     = oct,
+  comment   = {Self distillation techniques. Deeper layers guide shallow ones. Additional softmax to create many subnetworks.},
   keywords  = {Teacher-Student},
 }
 
@@ -7021,6 +7024,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {6728--6736},
   address   = {Seoul, Korea},
   month     = oct,
+  comment   = {Semi-Supervised learning in a teacher-student setup, where a second student is used (also trained, but differently initialized) combined with a novel stability constraint and introduction of stable samples. Stable samples are samples where the model is smooth in the sample neighborhood (i.e., small perturbation do not change the output). Additionally, they have a high confidence.},
   keywords  = {Teacher-Student},
 }
 
@@ -7043,6 +7047,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {3514--3522},
   address   = {Seoul, Korea},
   month     = oct,
+  comment   = {Data-freeness by using a GAN with the teacher as the discriminator. Afterwards, the GAN is used combined with the teacher and the student to train the student with knowledge distillation.},
   keywords  = {Teacher-Student},
 }
 
@@ -7078,6 +7083,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {8433--8440},
   address   = {Honolulu, HI, USA},
   month     = jan,
+  comment   = {Heterogenous auxiliary network feature mimicking. Basically multi-task distillation, where one uses heterogeneous teacher networks (task 1 + task 2), closes the distance in the feature extraction to guide the student in a task 3.},
   keywords  = {Teacher-Student},
 }
 
@@ -7088,6 +7094,7 @@ keywords   = {Computer Vision; Prediction},
   year      = {2019},
   pages     = {5628--5635},
   address   = {Honolulu, HI, USA},
+  comment   = {Basically, using a teacher, which establishes not one hot output vectors gives better students.},
   keywords  = {Teacher-Student},
 }
 
@@ -7099,6 +7106,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {3771--3778},
   address   = {Honolulu, HI, USA},
   month     = jan,
+  comment   = {They propose to use adversarial examples to bettter distill knowledge about the decision boundary of the teacher.},
   keywords  = {Teacher-Student},
 }
 
@@ -7110,6 +7118,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {3779--3787},
   address   = {Honolulu, HI, USA},
   month     = jan,
+  comment   = {Transfer the knowledge wether a neuron is activated or not rather than just closing the distance between the activation of the teacher or the student.},
   keywords  = {Teacher-Student},
 }
 
@@ -7121,6 +7130,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {5565--5572},
   address   = {Honolulu, HI, USA},
   month     = jan,
+  comment   = {Self distillation. One network, but minimize the discrepancy of feature/posterior distributions across two distored batches (same batches, randomly mirrored and cropped).},
   keywords  = {Teacher-Student},
 }
 
@@ -7132,6 +7142,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {3068--3075},
   address   = {Honolulu, HI, USA},
   month     = jan,
+  comment   = {Using expert networks as teachers, the knowledge of both teacher (two experts on two subset) is amalgamated in two steps in one student network (becoming the expert of both subsets). First do the amalgamation and then learn the parameters.},
   keywords  = {Teacher-Student},
 }
 
@@ -7154,6 +7165,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {0--0},
   address   = {New York, NY, USA},
   month     = feb,
+  comment   = {Ensemble of teacher models. NAS for augmenting useful structures and operations for the student model. Task is to increase the complexity of the student to overpower the teachers. Oracle knowledge distillation loss (only correct predictions) facilitating model search and ensemble distillation.},
   keywords  = {Teacher-Student},
 }
 
@@ -7165,6 +7177,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {0--0},
   address   = {New York, NY, USA},
   month     = feb,
+  comment   = {BERT (language model). Distillation of internal representations by KL Divergence and cosine similarity. Three kinds of distillation: all layers, progressive distillation, and stacked internatl distillation.},
   keywords  = {Teacher-Student},
 }
 
@@ -7210,6 +7223,7 @@ keywords   = {Computer Vision; Prediction},
   pages     = {2859--2868},
   address   = {Long Beach, CA, USA},
   month     = jun,
+  comment   = {Supervision is extracted during training from earlier epochs. Underfitting is handled through enforcing a sufficiently large distance between teacher (epoch < n) and student (epoch = n).},
   keywords  = {Teacher-Student},
 }
 
@@ -7220,7 +7234,7 @@ keywords   = {Computer Vision; Prediction},
   year      = {2019},
   pages     = {3967--3976},
   address   = {Long Beach, CA, USA},
-  month     = jun,
+  address   = jun,
   keywords  = {Teacher-Student},
 }
 
@@ -7815,6 +7829,62 @@ keywords   = {Computer Vision; Prediction},
   pages    = {108--116},
   volume   = {7},
   keywords = {Robustness},
+}
+
+@Article{Brostow2009,
+  author   = {Gabriel J. Brostow and Julien Fauqueur and Roberto Cipolla},
+  title    = {{Semantic Object Classes in Video: A High-Definition Ground Truth Database}},
+  journal  = {Pattern Recognition Letters},
+  year     = {2009},
+  volume   = {30},
+  number   = {2},
+  pages    = {88--97},
+  month    = jan,
+  comment  = {CamVID},
+  keywords = {Dataset},
+}
+
+@InProceedings{Xie2017b,
+  author    = {Die Xie and Jiang Xiong and Shiliang Pu},
+  title     = {{All You Need Is Beyond a Good Init: Exploring Better Solution for Training Extremely Deep Convolutional Neural Networks with Orthonormality and Modulation}},
+  booktitle = {Proc. of CVPR},
+  year      = {2017},
+  pages     = {6176--6185},
+  address   = {Honulu, HI, USA},
+  month     = jul,
+  keywords  = {Teacher-Student, Computer Vision},
+}
+
+@InProceedings{Li2019e,
+  author    = {Xiangtai Li and Li Zhang and Ansheng You and Maoke Yang and Kuiyuan Yang and Yunhai Tong},
+  title     = {{Global Aggregation then Local Distribution in Fully Convolutional Networks}},
+  booktitle = {Proc. of BMVC},
+  year      = {2019},
+  pages     = {1--13},
+  address   = {Cardiff, Wales},
+  month     = sep,
+  keywords  = {Semantic Segmentation},
+}
+
+@Article{Hamming1950,
+  author   = {Richard W. Hamming},
+  title    = {{Error Detecting and Error Correcting Codes}},
+  journal  = {{The Bell System Technical Journal}},
+  year     = {1950},
+  volume   = {29},
+  number   = {2},
+  pages    = {147--160},
+  month    = apr,
+  keywords = {Measure},
+}
+
+@Book{Proakis1989,
+  title     = {{Digital Communications}},
+  publisher = {McGraw-Hill Book Company},
+  year      = {1989},
+  author    = {John G. Proakis},
+  comment   = {Hamming codes on pp. 384-385},
+  keywords  = {Measure},
 }
 
 @InProceedings{Pilzer2018,
@@ -9389,7 +9459,6 @@ howpublished = {\url{http://www.a2d2.audi}}
   address   = {Seattle, WA, USA},
   month     = jun,
   pages     = {1--10},
-  comment   = {Elaborating on using the inverse feature matching loss to increase the robustness of adaptating networks.},
   keywords  = {Teacher-Student, Adversarial Attacks, Robustness, Adversarial Defense},
 }
 
@@ -9401,7 +9470,6 @@ howpublished = {\url{http://www.a2d2.audi}}
   address   = {Seattle, WA, USA},
   month     = jun,
   pages     = {1--10},
-  comment   = {Elaborating on using the inverse feature matching loss to increase the robustness of adaptating networks.},
   keywords  = {Teacher-Student, Adversarial Attacks, Robustness, Adversarial Defense},
 }
 
@@ -9413,7 +9481,6 @@ howpublished = {\url{http://www.a2d2.audi}}
   address   = {Seattle, WA, USA},
   month     = jun,
   pages     = {1--9},
-  comment   = {Elaborating on using the inverse feature matching loss to increase the robustness of adaptating networks.},
   keywords  = {Teacher-Student, Adversarial Attacks, Robustness, Adversarial Defense},
 }
 
@@ -9579,7 +9646,7 @@ howpublished = {\url{http://www.a2d2.audi}}
 1 KeywordGroup:Datasets\;0\;keywords\;Dataset\;0\;0\;1\;\;\;\;;
 1 KeywordGroup:Oberseminar Machine Learning 2019\;0\;keywords\;OML2019\;0\;0\;1\;\;\;\;;
 1 KeywordGroup:Computer Vision\;0\;keywords\;Computer Vision\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:Signal Processing\;0\;keywords\;Signal Processing\;0\;0\;1\;0x0000ffff\;\;\;;
+1 KeywordGroup:Signal Processing\;0\;keywords\;Signal Processing\;0\;0\;1\;\;\;\;\;;
 1 KeywordGroup:Continual Learning\;0\;keywords\;Continual Learning\;0\;0\;1\;\;\;\;;
 1 KeywordGroup:Meetings\;0\;keywords\;Meetings\;0\;0\;1\;\;\;\;;
 1 KeywordGroup:Source Separation\;0\;keywords\;Source Separation\;0\;0\;1\;\;\;\;;
