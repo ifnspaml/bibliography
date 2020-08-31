@@ -4,10 +4,12 @@ Group bibliography
 ## Templates
 Do not add abstracts or reviews.
 
+:warning: **Please fill in the full first names of all authors.** Some conferences have guidelines that authors should be quoted by their full first and last name. If this is not the case, adjust your bibliographystyle to shorten first names automatically. 
+
 Conference papers:
 ```LaTeX
 @InProceedings{AuthorPublicationYear[a-z],
-  author      = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
+  author      = {Musterfrau, Maria and Doe, James and Normalverbraucherin, Olivia},
   title       = {{Title Using Headline Capitalization}},
   booktitle   = {Proc. of CONF},
   year        = {xxxx},
@@ -21,7 +23,7 @@ Conference papers:
 Journal arcticles:
 ```LaTeX
 @Article{AuthorPublicationYear[a-z],
-  author    = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
+  author    = {Musterfrau, Maria and Doe, James and Normalverbraucherin, Olivia},
   title     = {{Title Using Headline Capitalization}},
   journal 	= {IEEE Transactions on Lorem Ipsum (ABBR.)},
   year      = {xxxx},
@@ -48,7 +50,7 @@ Homepage:
 ```LaTeX
 @Misc{SciPy,
   title                    = {{SciPy: Open Source Scientific Tools for Python}},
-  author                   = {E. Jones and T. Oliphant and P. Peterson and others},
+  author                   = {Jones, Eric and Oliphant, Travis E. and Peterson, Pearu and others},
   note                     = {[Online; accessed <today>]},
   year                     = {2001--},
   url                      = {http://www.scipy.org/}
@@ -61,14 +63,14 @@ Book:
   title     = {Deep Lorem Ipsum with PyTorch},
   publisher = {Publisher Name},
   year      = {XXXX},
-  author    = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
+  author    = {Musterfrau, Maria and Doe, James and Normalverbraucherin, Olivia},
   keywords  = {Keyword1; Keyword2; ...},
 }
 ```
 arXiv e-Print:
 ```LaTeX
 @Article{AuthorPublicationYear[a-z],
-  author        = {M. Musterfrau and J. Doe and O. Normalverbraucherin},
+  author        = {Musterfrau, Maria and Doe, James and Normalverbraucherin, Olivia},
   title         = {{Title Using Headline Capitalization}},
   journal       = {arXiv},
   year          = {XXXX},
