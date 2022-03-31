@@ -1,6 +1,11 @@
 # Bibliography
 Group bibliography
 
+## Workflows
+Please pull a fresh version of this repository when you start to write a new paper and use `ifn_spaml_bibliography.bib` as your bibliography. After submission and review of the paper please add your new references here. 
+
+To avoid double entries please check if the reference is already present in the .bib file. 
+
 ## Templates
 Do not add abstracts or reviews.
 
