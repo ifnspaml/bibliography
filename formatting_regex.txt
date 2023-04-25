@@ -1,0 +1,12 @@
+% For having same spaces between bibtex-keys and entries you can use the following two regexes.
+
+Search for:
+^[\s\t]*([a-zA-Z]{6,})[\s\t]*=[\s\t]*(.*)
+Replace By:
+  \1\t= \2
+
+
+Search for:
+^[\s\t]*([a-zA-Z]{0,5})[\s\t]*=[\s\t]*(.*)
+Replace By:
+  \1\t\t= \2
