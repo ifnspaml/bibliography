@@ -19,6 +19,9 @@ Paste the raw text of the `ifn_spaml_bibliography.bib` file inside the web-tool 
 
 Some conferences require the full surnames of the authors. So if you add references please provide surnames of all authors.
 
+#### Sorting of entries
+
+To sort BibTeX entries in VSCode, use the "Sort BibTeX" extension, which can be installed from the VSCode marketplace and allows you to organize your BibTeX entries with a simple command.
 
 ## Templates
 Do not add abstracts or reviews.
