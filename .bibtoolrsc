@@ -1,0 +1,9 @@
+preserve.key.case = on
+print.line.length = 1000 
+pass.comments=on
+print.align.key=0
+print.use.tab=off 
+count.all = on
+check.duplicates = on
+duplicates = remove
+print.deleted.entries = off
