@@ -1,27 +1,32 @@
 # Bibliography
-Group bibliography
+Group bibliography, please read this README carefully.
 
 ## Workflows and Best Practices
 Please pull a fresh version of this repository when you start to write a new paper and use `ifn_spaml_bibliography.bib` as your bibliography. After submission and review of the paper please commit your new corrected references here. 
 
 #### Merge Conflicts
-
 In the case that someone added references in between and you run into a merge conflict, please use a merge editor of your choice, to compare your local `ifn_spaml_bibliography.bib` with the most recent `ifn_spaml_bibliography.bib` from this repository. 
 
-#### Check for duplicates
-You can use the following tool, to check if duplicates are in the .bib file. 
+#### Formatting
+If bibtex keys are already in use please append the next unused `[a-z]` letter to your key.
 
-https://flamingtempura.github.io/bibtex-tidy/
+Before commiting please use the following tool to tidy up your .bib file. 
 
-Paste the raw text of the `ifn_spaml_bibliography.bib` file inside the web-tool and check if there are duplicates names. Then please search and edit them **manually** inside your text editor. Please do only search for duplicate bibtex keys (e.g., Klingner2020). If duplicate entries are found please append the next unused `[a-z]` letter to one of the keys. Do not commit the version from *tidy* web-tool, as it is not confirmed that it won't corrupt some entries. 
+[https://flamingtempura.github.io/bibtex-tidy/](https://flamingtempura.github.io/bibtex-tidy/index.html?opt=%7B%22modify%22%3Atrue%2C%22curly%22%3Afalse%2C%22numeric%22%3Afalse%2C%22months%22%3Afalse%2C%22space%22%3A2%2C%22tab%22%3Afalse%2C%22align%22%3A16%2C%22sort%22%3A%5B%22key%22%5D%2C%22stripEnclosingBraces%22%3Afalse%2C%22dropAllCaps%22%3Afalse%2C%22escape%22%3Afalse%2C%22sortFields%22%3A%5B%22title%22%2C%22author%22%2C%22journal%22%2C%22booktitle%22%2C%22shorttitle%22%2C%22year%22%2C%22volume%22%2C%22number%22%2C%22pages%22%2C%22address%22%2C%22month%22%2C%22day%22%2C%22location%22%2C%22on%22%2C%22publisher%22%2C%22series%22%2C%22doi%22%2C%22isbn%22%2C%22issn%22%2C%22url%22%2C%22urldate%22%2C%22copyright%22%2C%22category%22%2C%22metadata%22%2C%22keywords%22%5D%2C%22stripComments%22%3Afalse%2C%22trailingCommas%22%3Afalse%2C%22encodeUrls%22%3Afalse%2C%22tidyComments%22%3Atrue%2C%22removeEmptyFields%22%3Afalse%2C%22removeDuplicateFields%22%3Afalse%2C%22lowercase%22%3Afalse%2C%22backup%22%3Atrue%7D)
+
+The current bibliography has been formatted with the following parameter set:
+```
+bibtex-tidy --align=16 --sort=key --no-escape --sort-fields=title,author,journal,booktitle,shorttitle,year,volume,number,pages,address,month,day,location,on,publisher,series,doi,isbn,issn,url,urldate,copyright,category,metadata,keywords --no-remove-dupe-fields --no-lowercase YOUR_FILE.bib
+```
+
+Paste the raw text of the `ifn_spaml_bibliography.bib` file inside the linked web-tool tidy it up. Before commiting then please review your new entries and changes **manually** with a diff tool of your choice. 
+
+#### Headline Capitalization
+Capitalize all words with four or more letters.*
 
 #### Provide Surnames
 
-Some conferences require the full surnames of the authors. So if you add references please provide surnames of all authors.
-
-#### Sorting of entries
-
-To sort BibTeX entries in VSCode, use the "Sort BibTeX" extension, which can be installed from the VSCode marketplace and allows you to organize your BibTeX entries with a simple command.
+Some conferences require the full surnames of the authors. So if you add references please provide surnames of all authors. Avoid using "and others" in your author list to generate "et al.". There are bibtex/biber options to do that.
 
 ## Templates
 Do not add abstracts or reviews.
@@ -29,8 +34,8 @@ Do not add abstracts or reviews.
 Conference papers:
 ```LaTeX
 @InProceedings{AuthorPublicationYear[a-z],
-  author      = {Max Musterfrau and Jane Doe and Olaf Normalverbraucherin},
   title       = {{Title Using Headline Capitalization}},
+  author      = {Max Musterfrau and Jane Doe and Olaf Normalverbraucherin},
   booktitle   = {Proc. of CONF},
   year        = {xxxx},
   pages       = {xxxx--xxxx},
@@ -43,8 +48,8 @@ Conference papers:
 Journal arcticles:
 ```LaTeX
 @Article{AuthorPublicationYear[a-z],
-  author    = {Max Musterfrau and Jane Doe and Olaf Normalverbraucherin},
   title     = {{Title Using Headline Capitalization}},
+  author    = {Max Musterfrau and Jane Doe and Olaf Normalverbraucherin},
   journal 	= {IEEE Transactions on Lorem Ipsum (ABBR.)},
   year      = {xxxx},
   volume    = {xx},
@@ -90,8 +95,8 @@ Book:
 arXiv e-Print:
 ```LaTeX
 @Article{AuthorPublicationYear[a-z],
-  author        = {Max Musterfrau and Jane Doe and Olaf Normalverbraucherin},
   title         = {{Title Using Headline Capitalization}},
+  author        = {Max Musterfrau and Jane Doe and Olaf Normalverbraucherin},
   journal       = {arXiv},
   year          = {XXXX},
   month         = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec],
@@ -100,7 +105,7 @@ arXiv e-Print:
   keywords      = {Keyword1; Keyword2; ...},
 }
 ```
-*Headline Capitalization: Capitalize words with four or more letters.*
+
 
 ## Abbreviations for commonly used conferences
 | Conference                                                   | booktitle in bibtex  |
