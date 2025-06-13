@@ -1,11 +1,4 @@
 % Encoding: UTF-8
-@Book{
-  title           = {{Digital Coding of Waveforms, Principles and Applications to Speech and Video}},
-  author          = {N. S. Jayant and P. Noll},
-  year            = {1984},
-  publisher       = {Prentice Hall}
-}
-
 @InProceedings{Aalburg2002,
   title           = {{Single- and Two-Channel Noise Reduction for Robust Speech Recognition}},
   author          = {S. Aalburg and C. Beaugeant and S. Stan and T. Fingscheidt and R. Balan and J. Rosca},
@@ -52,7 +45,7 @@
 @Article{Abdel-Hamid2014,
   title           = {{Convolutional Neural Networks for Speech Recognition}},
   author          = {O. {Abdel-Hamid} and A. {Mohamed} and H. {Jiang} and L. {Deng} and G. {Penn} and D. {Yu}},
-  journal         = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  journal         = {{IEEE/ACM} {T}rans.\ on {A}udio, {S}peech, and {L}anguage {P}rocessing},
   year            = {2014},
   volume          = {22},
   number          = {10},
@@ -536,8 +529,8 @@
   booktitle       = {Proc.\ of ICML},
   year            = {2016},
   pages           = {173--182},
-  month           = jun,
-  location        = {New York, NY, USA}
+  address         = {New York, NY, USA},
+  month           = jun
 }
 
 @InProceedings{An2007,
@@ -926,6 +919,17 @@
   pages           = {12449--12460},
   address         = {virtual},
   month           = dec
+}
+
+%vqwav2vec url={https://openreview.net/forum?id=rylwJxrYDS}
+@InProceedings{Baevski2020a,
+  title           = {vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations},
+  author          = {Alexei Baevski and Steffen Schneider and Michael Auli},
+  booktitle       = {Proc.\ {o}{f} ICLR},
+  year            = {2020},
+  pages           = {1--12},
+  address         = {Virtual},
+  month           = apr
 }
 
 @InProceedings{Bahdanau2015,
@@ -1419,6 +1423,15 @@
   eprint          = {1908.10553}
 }
 
+% DCASE submission pos from pos, neg = complete file
+@TechReport{Bielecki2021,
+  title           = {FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH PROTOTYPICAL NETWORKS , KNOWLEDGE DISTILLATION AND ATTENTION TRANSFER LOSS},
+  author          = {Bielecki, Radoslaw},
+  year            = {2021},
+  month           = jun,
+  school          = {DCASE2021 Challenge}
+}
+
 @InProceedings{Bilinski2018,
   title           = {{Dense Decoder Shortcut Connections for Single-Pass Semantic Segmentation}},
   author          = {Piotr Bilinski and Victor Prisacariu},
@@ -1588,6 +1601,15 @@
   keywords        = {Computer Vision; Object detection; YOLACT++},
   archiveprefix   = {arXiv},
   eprint          = {1912.06218}
+}
+
+% DCASE submission pos from concated pos, neg from concated neg
+@TechReport{Bordoux2024,
+  title           = {ADAPTABLE INPUT LENGTH USING MODEL TRAINED ON WAVEFORM Technical Report},
+  author          = {Bordoux, Valentin},
+  year            = {2024},
+  month           = jun,
+  school          = {DCASE2024 Challenge}
 }
 
 @Article{Borgwardt2006integrating,
@@ -2116,6 +2138,15 @@
   month           = nov
 }
 
+@Article{Cantarini2022,
+  title           = {Few-Shot Emergency Siren Detection},
+  author          = {Cantarini, Michela and Gabrielli, Leonardo and Squartini, Stefano},
+  journal         = {Sensors},
+  year            = {2022},
+  volume          = {22},
+  pages           = {1--26}
+}
+
 @InProceedings{Cao2016,
   title           = {{Deep Quantization Network for Efficient Image Retrieval}},
   author          = {Cao, Y. and Long, M. and Wang, J. and Zhu, H. and Wen, Q.},
@@ -2155,6 +2186,17 @@
   address         = {Long Beach, CA, USA},
   month           = jun,
   keywords        = {Domain Adaptation}
+}
+
+%pirl url={https://openreview.net/forum?id=cLV-j44vk4}
+@InProceedings{Cao2022,
+  title           = {Pi{RL}: Participant-Invariant Representation Learning for Healthcare},
+  author          = {Zhaoyang Cao and Han Yu and Huiyuan Yang and Akane Sano},
+  booktitle       = {Proc.\ {o}{f} NeurIPS - Workshops},
+  year            = {2022},
+  pages           = {1--9},
+  address         = {New Oleans, LA, USA},
+  month           = nov
 }
 
 @Article{Cappellazzo2024,
@@ -2239,6 +2281,28 @@
   year            = {2017},
   pages           = {5067--5075},
   address         = {Venice, Italy},
+  month           = oct
+}
+
+%swav deepclusterv2 selav2 url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/70feb62b69f16e0238f741fab228fec2-Paper.pdf},
+@InProceedings{Caron2020,
+  title           = {Unsupervised Learning of Visual Features by Contrasting Cluster Assignments},
+  author          = {Caron, Mathilde and Misra, Ishan and Mairal, Julien and Goyal, Priya and Bojanowski, Piotr and Joulin, Armand},
+  booktitle       = {Proc.\ {o}{f} NeurIPS},
+  year            = {2020},
+  pages           = {9912--9924},
+  address         = {Virtual},
+  month           = dec
+}
+
+%dinoresnet50
+@InProceedings{Caron2021,
+  title           = {Emerging Properties in Self-Supervised Vision Transformers},
+  author          = {Caron, Mathilde and Touvron, Hugo and Misra, Ishan and Jegou, Hervé and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand},
+  booktitle       = {Proc.\ {o}{f} ICCV},
+  year            = {2021},
+  pages           = {9630--9640},
+  address         = {Virtual},
   month           = oct
 }
 
@@ -2681,6 +2745,39 @@
   month           = nov
 }
 
+%mocov2
+@Article{Chen2020b,
+  title           = {Improved baselines with momentum contrastive learning},
+  author          = {Chen, Xinlei and Fan, Haoqi and Girshick, Ross and He, Kaiming},
+  journal         = {arXiv},
+  year            = {2020},
+  month           = mar,
+  archiveprefix   = {arXiv},
+  eprint          = {2003.04297}
+}
+
+%simclrv1
+@InProceedings{Chen2020c,
+  title           = {A simple framework for contrastive learning of visual representations},
+  author          = {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  booktitle       = {Proc.\ {o}{f} ICML},
+  year            = {2020},
+  pages           = {1--11},
+  address         = {Virtual},
+  month           = jul
+}
+
+%simclrv2
+@InProceedings{Chen2020d,
+  title           = {Big self-supervised models are strong semi-supervised learners},
+  author          = {Chen, Ting and Kornblith, Simon and Swersky, Kevin and Norouzi, Mohammad and Hinton, Geoffrey},
+  booktitle       = {Proc.\ {o}{f} NeurIPS},
+  year            = {2020},
+  pages           = {1--13},
+  address         = {Virtual},
+  month           = dec
+}
+
 @InProceedings{Chen2021,
   title           = {{Focus on the Present: A Regularization Method for the ASR Source-Target Attention Layer}},
   author          = {Chen, Nanxin and {\.Z}elasko, Piotr and Villalba, Jesús and Dehak, Najim},
@@ -2709,6 +2806,16 @@
   year            = {2021},
   pages           = {5994--5998},
   address         = {Toronto, ON, Canada},
+  month           = jun
+}
+
+@InProceedings{Chen2021c,
+  title           = {Exploring Simple Siamese Representation Learning},
+  author          = {Chen, Xinlei and He, Kaiming},
+  booktitle       = {Proc.\ {o}{f} CVPR},
+  year            = {2021},
+  pages           = {15745--15753},
+  address         = {Virtual},
   month           = jun
 }
 
@@ -2749,6 +2856,17 @@
   number          = {6},
   pages           = {1505--1518},
   publisher       = {IEEE}
+}
+
+%infomin url={https://openreview.net/forum?id=Ojakr9ofova}
+@InProceedings{Chen2022d,
+  title           = {Scalable Infomin Learning},
+  author          = {Yanzhi Chen and Weihao Sun and Yingzhen Li and Adrian Weller},
+  booktitle       = {Proc.\ {o}{f} NeurIPS},
+  year            = {2022},
+  pages           = {2226--2239},
+  address         = {New Oleans, LA, USA},
+  month           = nov
 }
 
 @InProceedings{Chen2023,
@@ -2792,6 +2910,16 @@
   month           = oct,
   keywords        = {Semantic Segmentation},
   comment         = {mutli-stage semantic segmentation for better context aggregation}
+}
+
+@InProceedings{Cheng2019a,
+  title           = {Multi-label Few-shot Learning for Sound Event Recognition},
+  author          = {Cheng, Kai-Hsiang and Chou, Szu-Yu and Yang, Yi-Hsuan},
+  booktitle       = {Proc.\ {o}{f} {MMSP} - Workshops},
+  year            = {2019},
+  pages           = {1--5},
+  address         = {Kuala Lumpur, Malaysia},
+  month           = sep
 }
 
 @InProceedings{Cheng2020,
@@ -2991,6 +3119,16 @@
   month           = aug
 }
 
+% Precision Recall Curve and ROC
+@Book{ChristopherD.ManningPrabhakarRaghavan2008,
+  title           = {Introduction to Information Retrieval},
+  author          = {{Christopher D. Manning, Prabhakar Raghavan}, Hinrich Schütze},
+  year            = {2008},
+  pages           = {158ff.},
+  address         = {Cambridge, UK},
+  publisher       = {Cambridge University Press}
+}
+
 @Article{Chu2017,
   title           = {{CycleGAN, A Master of Steganography}},
   author          = {Casey Chu and Andrey Zhmoginov and Mark Sandler},
@@ -3078,6 +3216,28 @@
   address         = {Hyderabad, India},
   month           = sep,
   keywords        = {Emotion Recognition}
+}
+
+%apc_model
+@InProceedings{Chung2019,
+  title           = {An Unsupervised Autoregressive Model for Speech Representation Learning},
+  author          = {Yu-An Chung and Wei-Ning Hsu and Hao Tang and James Glass},
+  booktitle       = {Proc.\ {o}{f} Interspeech},
+  year            = {2019},
+  pages           = {146--150},
+  address         = {Graz, Austria},
+  month           = sep
+}
+
+%vqapc
+@InProceedings{Chung2020,
+  title           = {Vector-Quantized Autoregressive Predictive Coding},
+  author          = {Yu-An Chung and Hao Tang and James Glass},
+  booktitle       = {Proc.\ {o}{f} Interspeech},
+  year            = {2020},
+  pages           = {3760--3764},
+  address         = {Virtual},
+  month           = oct
 }
 
 @InProceedings{Chung2021,
@@ -3531,9 +3691,63 @@
   month           = aug
 }
 
+@InProceedings{Davis2006,
+  title           = {The relationship between Precision-Recall and ROC curves},
+  author          = {Davis, Jesse and Goadrich, Mark},
+  booktitle       = {Proc.\ {o}{f} ICML},
+  year            = {2006},
+  pages           = {233--240},
+  address         = {Pittsburgh, PA, USA},
+  month           = jun
+}
+
+@Misc{DCASEChallenge2019,
+  title           = {{DCASE 2019 Task 1c: Open set Acoustic Scene Classification}},
+  author          = {{DCASE Challenge}},
+  year            = {2019},
+  url             = {https://dcase.community/challenge2019/task-acoustic-scene-classification-results-c}
+}
+
+@Misc{DCASEChallenge2021,
+  title           = {{DCASE 2021 Task 5: Few-shot Bioacoustic Event Detection}},
+  author          = {{DCASE Challenge}},
+  year            = {2021},
+  url             = {https://dcase.community/challenge2021/task-few-shot-bioacoustic-event-detection}
+}
+
+% DCASE task 5 evaluation code
+@Misc{DCASEChallenge2022,
+  title           = {DCASE Few-shot Bioacoustic Event Detection Evaluation Metrics},
+  author          = {{DCASE Challenge}},
+  year            = {2022},
+  url             = {https://github.com/c4dm/dcase-few-shot-bioacoustic/tree/main/evaluation_metrics}
+}
+
+@Misc{DCASEChallenge2022a,
+  title           = {{DCASE 2022 Task 5: Few-shot Bioacoustic Event Detection}},
+  author          = {{DCASE Challenge}},
+  year            = {2022},
+  url             = {https://dcase.community/challenge2022/task-few-shot-bioacoustic-event-detection}
+}
+
+@Misc{DCASEChallenge2023,
+  title           = {{DCASE 2023 Task 5: Few-shot Bioacoustic Event Detection}},
+  author          = {{DCASE Challenge}},
+  year            = {2023},
+  url             = {https://dcase.community/challenge2023/task-few-shot-bioacoustic-event-detection}
+}
+
+% DCASE challenge links
+@Misc{DCASEChallenge2024,
+  title           = {{DCASE 2024 Task 5: Few-shot Bioacoustic Event Detection}},
+  author          = {{DCASE Challenge}},
+  year            = {2024},
+  url             = {https://dcase.community/challenge2024/task-few-shot-bioacoustic-event-detection}
+}
+
 @InProceedings{Dean2010,
   title           = {{The QUT-NOISE-TIMIT Corpus for the Evaluation of Voice Activity Detection Algorithms}},
-  author          = {David Dean, Sridha Sridharan, Robert Vogt, Michael Mason},
+  author          = {David Dean and Sridha Sridharan and Robert Vogt and Michael Mason},
   booktitle       = {Proc.\ of Interspeech},
   year            = {2010},
   pages           = {3110–-3113},
@@ -4098,6 +4312,15 @@
   keywords        = {Measure, Source Separation}
 }
 
+@Article{Engel2017,
+  title           = {Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders},
+  author          = {Jesse Engel and Cinjon Resnick and Adam Roberts and Sander Dieleman and Douglas Eck and Karen Simonyan and Mohammad Norouzi},
+  journal         = {arXiv},
+  year            = {2017},
+  archiveprefix   = {arXiv},
+  eprint          = {1704.01279}
+}
+
 @Article{Englund2016,
   title           = {{The Grand Cooperative Driving Challenge 2016: Boosting the Introduction of Cooperative Automated Vehicles}},
   author          = {C. {Englund} and L. {Chen} and J. {Ploeg} and E. {Semsar-Kazerooni} and A. {Voronov} and H. H. {Bengtsson} and J. {Didoff}},
@@ -4446,6 +4669,27 @@
   address         = {Waikoloa Village, HI, USA},
   month           = jan,
   keywords        = {Computer Vision; Amodal Segmentation}
+}
+
+# FSDKaggle2018
+@Article{Fonseca2018,
+  title           = {General-purpose Tagging of Freesound Audio with AudioSet Labels: Task Description, Dataset, and Baseline},
+  author          = {Eduardo Fonseca and Manoj Plakal and Frederic Font and Daniel P. W. Ellis and Xavier Favory and Jordi Pons and Xavier Serra},
+  journal         = {arXiv},
+  year            = {2018},
+  month           = oct,
+  archiveprefix   = {arXiv},
+  eprint          = {1807.09902}
+}
+
+% FSD50K
+@Article{Fonseca2022,
+  title           = {FSD50K: An Open Dataset of Human-Labeled Sound Events},
+  author          = {Fonseca, Eduardo and Favory, Xavier and Pons, Jordi and Font, Frederic and Serra, Xavier},
+  journal         = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  year            = {2022},
+  volume          = {30},
+  pages           = {829--852}
 }
 
 @InProceedings{Ford2019,
@@ -4893,6 +5137,17 @@
   keywords        = {Computer Vision; Generalization}
 }
 
+%OSR survey
+@Article{Geng2021,
+  title           = {Recent Advances in Open Set Recognition: A Survey},
+  author          = {Geng, Chuanxing and Huang, Sheng-Jun and Chen, Songcan},
+  journal         = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year            = {2021},
+  volume          = {43},
+  number          = {10},
+  pages           = {3614--3631}
+}
+
 @InProceedings{Gergen2016,
   title           = {{Dynamic Stream Weighting for Turbo-Decoding-Based Audiovisual ASR}},
   author          = {Gergen, Sebastian and Zeiler, Steffen and Abdelaziz, Ahmed Hussen and Kolossa, Dorothea},
@@ -5145,6 +5400,17 @@
   month           = jun
 }
 
+%ssast url={https://ojs.aaai.org/index.php/AAAI/article/view/21315},
+@InProceedings{Gong2022,
+  title           = {SSAST: Self-Supervised Audio Spectrogram Transformer},
+  author          = {Gong, Yuan and Lai, Cheng-I and Chung, Yu-An and Glass, James},
+  booktitle       = {Proc.\ {o}{f} AAAI},
+  year            = {2022},
+  pages           = {10699--10709},
+  address         = {Virtual},
+  month           = feb
+}
+
 @InProceedings{GontijoLopes2021,
   title           = {{Tradeoffs in Data Augmentation: An Empirical Study}},
   author          = {Raphael Gontijo-Lopes and Sylvia Smullin and Ekin Dogus Cubuk and Ethan Dyer},
@@ -5335,6 +5601,17 @@
   volume          = {13},
   pages           = {723--773},
   month           = mar
+}
+
+%byol url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf},
+@InProceedings{Grill2020,
+  title           = {Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning},
+  author          = {Grill, Jean-Bastien and Strub, Florian and Altch\'{e}, Florent and Tallec, Corentin and Richemond, Pierre and Buchatskaya, Elena and Doersch, Carl and Avila Pires, Bernardo and Guo, Zhaohan and Gheshlaghi Azar, Mohammad and Piot, Bilal and kavukcuoglu, koray and Munos, Remi and Valko, Michal},
+  booktitle       = {Proc.\ {o}{f} NeurIPS},
+  year            = {2020},
+  pages           = {21271--21284},
+  address         = {Virtual},
+  month           = dec
 }
 
 @inproceedings{Guevara-Rukoz2020,
@@ -5694,6 +5971,16 @@
   editor          = {Fingscheidt, Tim and Gottschalk, Hanno and Houben, Sebastian}
 }
 
+% ROC
+@Book{Hastie2009,
+  title           = {{The Elements of Statistical Learning}},
+  author          = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+  year            = {2009},
+  pages           = {316ff.},
+  address         = {New York, NY, USA},
+  publisher       = {Springer}
+}
+
 @InProceedings{Haubner2021,
   title           = {{A Synergistic Kalman- and Deep Postfiltering Approach to Acoustic Echo Cancellation}},
   author          = {Thomas Haubner and Mhd Modar Halimeh and Andreas Brendel and Walter Kellermann},
@@ -5863,6 +6150,17 @@
   comment         = {Injecting gaussian noise at each layer on either weights or activation by solving the min-max problem. Motivation: Gaussian noise as data augmentation is pretty powerful for regularization.}
 }
 
+%mocov1
+@InProceedings{He2020,
+  title           = {Momentum Contrast for Unsupervised Visual Representation Learning},
+  author          = {He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross},
+  booktitle       = {Proc.\ {o}{f} CVPR},
+  year            = {2020},
+  pages           = {9726--9735},
+  address         = {Virtual},
+  month           = jun
+}
+
 @InProceedings{He2022,
   title           = {{Masked Autoencoders Are Scalable Vision Learners}},
   author          = {He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Dollár, Piotr and Girshick, Ross},
@@ -5924,6 +6222,49 @@
   pages           = {190--202},
   month           = jan,
   index           = {phase features, modified group delay features, mfcc, automatic speech recognition, asr}
+}
+
+% Metaaudio
+@Article{Heggan2022,
+  title           = {MetaAudio: A Few-Shot Audio Classification Benchmark},
+  author          = {Calum Heggan and Sam Budgett and Timothy Hospedales and Mehrdad Yaghoobi},
+  journal         = {arXiv},
+  year            = {2022},
+  archiveprefix   = {arXiv},
+  eprint          = {2204.02121}
+}
+
+% MTSLVR
+@InProceedings{Heggan2023,
+  title           = {MT-SLVR: Multi-Task Self-Supervised Learning for Transformation In(Variant) Representations},
+  author          = {Calum Heggan and Tim Hospedales and Sam Budgett and Mehrdad Yaghoobi},
+  booktitle       = {Proc.\ {o}{f} Interspeech},
+  year            = {2023},
+  pages           = {4399--4403},
+  address         = {Dublin, Ireland},
+  month           = aug
+}
+
+% S3PRL
+@InProceedings{Heggan2024,
+  title           = {On the Transferability of Large-Scale Self-Supervision to Few-Shot Audio Classification},
+  author          = {Heggan, Calum and Budgett, Sam and Hospedales, Tim and Yaghoobi, Mehrdad},
+  booktitle       = {Proc.\ {o}{f} ICASSP - Workshops},
+  year            = {2024},
+  pages           = {515--519},
+  address         = {Seoul, South Korea},
+  month           = apr
+}
+
+% From Pixels to Waveforms
+@InProceedings{Heggan2024a,
+  title           = {From Pixels to Waveforms: Evaluating Pre-trained Image Models for Few-Shot Audio Classification},
+  author          = {Calum Heggan and Timothy M. Hospedales and Sam Budgett and Mehrdad Yaghoobi},
+  booktitle       = {Proc.\ {o}{f} IJCNN},
+  year            = {2024},
+  pages           = {1--8},
+  address         = {Yokohama, Japan},
+  month           = jun
 }
 
 @InProceedings{Heidecker2021,
@@ -6347,6 +6688,16 @@
   month           = dec
 }
 
+@InProceedings{Hopcroft1971,
+  title           = {A $n^{5/2}$ algorithm for maximum matchings in bipartite graphs},
+  author          = {Hopcroft, John E. and Karp, Richard M.},
+  booktitle       = {Proc.\ {o}{f} {SWAT}},
+  year            = {1971},
+  pages           = {122--125},
+  address         = {East Lansing, {MI}, {USA}},
+  month           = oct
+}
+
 @Article{Hori2012,
   title           = {{Low-Latency Real-Time Meeting Recognition and Understanding Using Distant Microphones and Omni-Directional Camera}},
   author          = {Takaaki Hori and Shoko Araki and Takuya Yoshioka and Masakiyo Fujimoto and Shinji Watanabe and Takanobu Oba and Atsunori Ogawa and Kazuhiro Otsuka and Dan Mikami and Keisuke Kinoshita and Tomohiro Nakatani and Atsushi Nakamura and Junji Yamato},
@@ -6423,6 +6774,17 @@
   month           = apr,
   archiveprefix   = {arXiv},
   eprint          = {1704.04861}
+}
+
+%mobilenetv3
+@InProceedings{Howard2019,
+  title           = {Searching for MobileNetV3},
+  author          = {Howard, Andrew and Sandler, Mark and Chen, Bo and Wang, Weijun and Chen, Liang-Chieh and Tan, Mingxing and Chu, Grace and Vasudevan, Vijay and Zhu, Yukun and Pang, Ruoming and Adam, Hartwig and Le, Quoc},
+  booktitle       = {Proc.\ {o}{f} ICCV},
+  year            = {2019},
+  pages           = {1314--1324},
+  address         = {Seoul, Korea},
+  month           = oct
 }
 
 @Article{Hsu2021,
@@ -6564,7 +6926,7 @@
 @InProceedings{Huang2018,
   title           = {The ApolloScape Dataset for Autonomous Driving},
   author          = {Huang, Xinyu and Cheng, Xinjing and Geng, Qichuan and Cao, Binbin and Zhou, Dingfu and Wang, Peng and Lin, Yuanqing and Yang, Ruigang},
-  booktitle       = {Proc. of CVPR Workshops},
+  booktitle       = {Proc.\ of CVPR Workshops},
   year            = {2018},
   pages           = {1067--1073},
   address         = {Salt Lake City, UT, USA},
@@ -7031,6 +7393,17 @@
   keywords        = {Speech Recognition}
 }
 
+% Early OSR in vision
+@InProceedings{Jain2014,
+  title           = {Multi-class Open Set Recognition Using Probability of Inclusion},
+  author          = {Jain, Lalit P. and Scheirer, Walter J. and Boult, Terrance E.},
+  booktitle       = {Proc.\ {o}{f} ECCV},
+  year            = {2014},
+  pages           = {393--409},
+  address         = {Zurich, Switzerland},
+  month           = sep
+}
+
 @InProceedings{Jain2020,
   title           = {{Discrete Residual Flow for Probabilistic Pedestrian Behavior Prediction}},
   author          = {Jain, Ajay and Casas, Sergio and Liao, Renjie and Xiong, Yuwen and Feng, Song and Segal, Sean and Urtasun, Raquel},
@@ -7254,6 +7627,15 @@
   address         = {Seattle, WA, USA},
   month           = jun,
   keywords        = {Depth Prediction}
+}
+
+% DCASE submission pos from pos, 650 random neg from file
+@TechReport{Johannsmeier2021,
+  title           = {FEW-SHOT BIOACOUSTIC EVENT DETECTION VIA SEGMENTATION USING PROTOTYPICAL NETWORKS},
+  author          = {Johannsmeier, Jens and Stober, Sebastian},
+  year            = {2021},
+  month           = jun,
+  school          = {DCASE2021 Challenge}
 }
 
 @InProceedings{Johnson2016,
@@ -8970,7 +9352,7 @@
 @InProceedings{Li2020,
   title           = {{Self-Supervised Deep Visual Odometry With Online Adaptation}},
   author          = {Shunkai Li and Xin Wang and Yingdian Cao and Fei Xue and Zike Yan and Hongbin Zha},
-  booktitle       = {Proc. of CVPR},
+  booktitle       = {Proc.\ of CVPR},
   year            = {2020},
   pages           = {6339--6348},
   address         = {Seattle, WA, USA},
@@ -9071,6 +9453,17 @@
   month           = aug
 }
 
+%pcl url={https://openreview.net/forum?id=KmykpuSrjcq}
+@InProceedings{Li2021c,
+  title           = {Prototypical Contrastive Learning of Unsupervised Representations},
+  author          = {Junnan Li and Pan Zhou and Caiming Xiong and Steven Hoi},
+  booktitle       = {Proc.\ {o}{f} ICLR},
+  year            = {2021},
+  pages           = {1--16},
+  address         = {Virtual},
+  month           = may
+}
+
 @InProceedings{Li2023,
   title           = {{Scaling Language-Image Pre-training via Masking}},
   author          = {Yanghao Li and Haoqi Fan and Ronghang Hu and Christoph Feichtenhofer and Kaiming He},
@@ -9155,23 +9548,13 @@
 
 @InProceedings{Liang2018,
   title           = {{Enhancing the Reliability of Out-Of-Distribution Image Detection in Neural Networks}},
-  author          = {Liang, S. and Li, Y. and Srikant, R.},
-  booktitle       = {Proc.\ of ICLR},
-  year            = {2018},
-  pages           = {1--27},
-  address         = {Vancouver, BC, Canada},
-  month           = apr,
-  keywords        = {Computer Vision; Anomaly Detection; CoCa Systematization}
-}
-
-@InProceedings{Liang2018a,
-  title           = {{Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks}},
   author          = {Shiyu Liang and Yixuan Li and R. Srikant},
   booktitle       = {Proc.\ of ICLR},
   year            = {2018},
   pages           = {1--27},
   address         = {Vancouver, BC, Canada},
   month           = apr,
+  keywords        = {Computer Vision; Anomaly Detection; CoCa Systematization},
   groups          = {Errror Prediction and Detection}
 }
 
@@ -9227,6 +9610,18 @@
   month           = dec
 }
 
+@InProceedings{Liang2024,
+  title           = {Learning from Taxonomy: Multi-Label Few-Shot Classification for Everyday Sound Recognition},
+  author          = {Liang, Jinhua and Phan, Huy and Benetos, Emmanouil},
+  booktitle       = {Proc.\ {o}{f} ICASSP},
+  year            = {2024},
+  pages           = {771--775},
+  address         = {Seoul, Korea},
+  month           = apr,
+  doi             = {10.1109/ICASSP48485.2024.10446908},
+  keywords        = {Training;Smoothing methods;Taxonomy;Semantics;Speech recognition;Acoustics;Recording;Few-shot learning;multi-label classification;audio taxonomy;everyday sound recognition}
+}
+
 @InProceedings{Lin2014microsoft,
   title           = {{Microsoft COCO: Common Objects in Context}},
   author          = {Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr and Zitnick, C Lawrence},
@@ -9269,6 +9664,28 @@
   address         = {Vancouver, BC, Canada},
   month           = dec,
   keywords        = {Computer Vision; Amodal Segmentation}
+}
+
+%decoarv2 url={https://api.semanticscholar.org/CorpusID:229156220}
+@Article{Ling2020a,
+  title           = {DeCoAR 2.0: Deep Contextualized Acoustic Representations with Vector Quantization},
+  author          = {Shaoshi Ling and Yuzong Liu},
+  journal         = {arXiv},
+  year            = {2020},
+  month           = apr,
+  archiveprefix   = {arXiv},
+  eprint          = {2012.06659}
+}
+
+%decoar
+@InProceedings{Ling2020b,
+  title           = {Deep Contextualized Acoustic Representations for Semi-Supervised Speech Recognition},
+  author          = {Ling, Shaoshi and Liu, Yuzong and Salazar, Julian and Kirchhoff, Katrin},
+  booktitle       = {Proc.\ {o}{f} ICASSP},
+  year            = {2020},
+  pages           = {6429--6433},
+  address         = {Virtual},
+  month           = may
 }
 
 @InProceedings{Lis2019,
@@ -9484,6 +9901,28 @@
   month           = dec
 }
 
+% First FS-OSR in vision
+@InProceedings{Liu2020b,
+  title           = {Few-Shot Open-Set Recognition Using Meta-Learning},
+  author          = {Liu, Bo and Kang, Hao and Li, Haoxiang and Hua, Gang and Vasconcelos, Nuno},
+  booktitle       = {Proc.\ {o}{f} CVPR},
+  year            = {2020},
+  pages           = {8798--8807},
+  address         = {Virtual},
+  month           = {June}
+}
+
+%mockingjay
+@InProceedings{Liu2020c,
+  title           = {Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders},
+  author          = {Liu, Andy T. and Yang, Shu-wen and Chi, Po-Han and Hsu, Po-chun and Lee, Hung-yi},
+  booktitle       = {Proc.\ {o}{f} ICASSP},
+  year            = {2020},
+  pages           = {6419--6423},
+  address         = {Virtual},
+  month           = may
+}
+
 @InProceedings{Liu2021,
   title           = {{Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows}},
   author          = {Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining},
@@ -9512,6 +9951,27 @@
   pages           = {1--13},
   address         = {virtual},
   month           = dec
+}
+
+%tera
+@Article{Liu2021c,
+  title           = {TERA: Self-Supervised Learning of Transformer Encoder Representation for Speech},
+  author          = {Liu, Andy T. and Li, Shang-Wen and Lee, Hung-yi},
+  journal         = {IEEE/ACM Transactions on Audio, Speech, and Lang. Proc.},
+  year            = {2021},
+  volume          = {29},
+  pages           = {2351--2366}
+}
+
+%npc_model
+@InProceedings{Liu2021d,
+  title           = {Non-Autoregressive Predictive Coding for Learning Speech Representations from Local Dependencies},
+  author          = {Alexander H. Liu and Yu-An Chung and James Glass},
+  booktitle       = {Proc.\ {o}{f} Interspeech},
+  year            = {2021},
+  pages           = {3730--3734},
+  address         = {Brno, Czechia},
+  month           = aug
 }
 
 @InProceedings{Liu2022,
@@ -9545,6 +10005,15 @@
   month           = jun
 }
 
+% DCASE submission 2024 baseline, 30 random neg from neg and query, performed 6 times
+@TechReport{Liu2022c,
+  title           = {SURREY SYSTEM FOR DCASE 2022 TASK 5 : FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH SEGMENT-LEVEL METRIC LEARNING Technical Report},
+  author          = {Liu, Haohe and Liu, Xubo and Mei, Xinhao and Kong, Qiuqiang and Wang, Wenwu and Plumbley, Mark D},
+  year            = {2022},
+  month           = jun,
+  school          = {DCASE2022 Challenge}
+}
+
 @InProceedings{Liu2023,
   title           = {{PatchDropout: Economizing Vision Transformers Using Patch Dropout}},
   author          = {Liu, Yue and Matsoukas, Christos and Strand, Fredrik and Azizpour, Hossein and Smith, Kevin},
@@ -9564,6 +10033,15 @@
   pages           = {1--15},
   address         = {Kigali, Rwanda},
   month           = may
+}
+
+% DCASE submission neg only from neg; iterative query samples as shots
+@TechReport{Liu2024,
+  title           = {FEW-SHOT BIOACOUSTIC EVENT DETECTION AT THE DCASE 2024 CHALLENGE Technical Report},
+  author          = {Liu, Wei and Liu, Hy},
+  year            = {2024},
+  month           = jun,
+  school          = {DCASE2024 Challenge}
 }
 
 @Article{Lloyd1982,
@@ -10374,6 +10852,15 @@
   keywords        = {Visual Speech Recognition, Lip-reading, Temporal Convolutional Networks}
 }
 
+% DCASE submission pos from pos, neg from neg
+@TechReport{Martinsson2022,
+  title           = {FEW-SHOT BIOACOUSTIC EVENT DETECTION USING A PROTOTYPICAL NETWORK ENSEMBLE WITH ADAPTIVE EMBEDDING FUNCTIONS Technical Report},
+  author          = {Martinsson, John and Willbo, Martin and Pirinen, Aleksis and Mogren, Olof and Sandsten, Maria},
+  year            = {2022},
+  month           = jun,
+  school          = {DCASE2022 Challenge}
+}
+
 @Article{Matheja2013,
   title           = {{A Dynamic Multi-Channel Speech Enhancement System for Distributed Microphones in a Car Environment}},
   author          = {T. Matheja and M. Buck and T. Fing\-scheidt},
@@ -10563,6 +11050,23 @@
   address         = {Boston, MA, USA},
   month           = jun,
   keywords        = {Speech Recognition}
+}
+
+%Virtanen SED
+@Article{Mesaros2021,
+  title           = {Sound Event Detection: A tutorial},
+  author          = {Mesaros, Annamaria and Heittola, Toni and Virtanen, Tuomas and Plumbley, Mark D.},
+  journal         = {IEEE Signal Processing Magazine},
+  year            = {2021},
+  volume          = {38},
+  pages           = {67--83}
+}
+
+@Misc{Meta2022,
+  title           = {TorchEval},
+  author          = {{Meta}},
+  year            = {2022},
+  url             = {https://docs.pytorch.org/torcheval/stable/}
 }
 
 @InProceedings{Metzen2017,
@@ -10858,6 +11362,17 @@
   eprint          = {1801.08092}
 }
 
+% DCASE fssed
+@InProceedings{Morfi2021,
+  title           = {Few-shot bioacoustic event detection : A new task at the DCASE 2021 challenge},
+  author          = {Morfi, Veronica and Nolasco, Inês and Lostanlen, Vincent and Singh, Shubhr and Strandburg-Peshkin, Ariana and Gill, Lisa and Pamula, Hanna and Benvent, David and Stowell, Dan},
+  booktitle       = {Proc.\ {o}{f} the Workshop on DCASE},
+  year            = {2021},
+  pages           = {1--5},
+  address         = {Virtual},
+  month           = nov
+}
+
 @InProceedings{Morgan1990,
   title           = {{Continuous Speech Recognition Using Multilayer Perceptrons With Hidden Markov Models}},
   author          = {Nelson Morgan and Hervé Bourlard},
@@ -10921,6 +11436,14 @@
   address         = {Venice, Italy},
   month           = oct,
   keywords        = {Computer Vision; Domain Adaptation}
+}
+
+@TechReport{Moummad2023,
+  title           = {SUPERVISED CONTRASTIVE LEARNING FOR PRE-TRAINING BIOACOUSTIC FEW SHOT SYSTEMS},
+  author          = {Moummad, Ilyass and Serizel, Romain and Farrugia, Nicolas},
+  year            = {2023},
+  month           = jun,
+  school          = {DCASE2023 Challenge}
 }
 
 @Article{Mowlaee2015,
@@ -11204,6 +11727,16 @@
   pages           = {2558--2567},
   address         = {Montr\' {e}al, QC, Canada},
   month           = dec
+}
+
+% FSOSR Dataset
+@Article{NaranjoAlcazar2022,
+  title           = {An Open-Set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments},
+  author          = {Javier Naranjo-Alcazar and Sergi Perez-Castanos and Pedro Zuccarello and Ana M. Torres and Jose J. Lopez and Francesc J. Ferri and Maximo Cobos},
+  journal         = {Pattern Recognition Letters},
+  year            = {2022},
+  volume          = {164},
+  pages           = {40--45}
 }
 
 @InProceedings{Naseer2020,
@@ -12151,6 +12684,17 @@
   month           = sep
 }
 
+% ESC-50
+@InProceedings{Piczak2015,
+  title           = {{ESC}: {Dataset} for {Environmental Sound Classification}},
+  author          = {Piczak, Karol J.},
+  booktitle       = {Proc.\ {o}{f} ACM Multimedia},
+  year            = {2015},
+  pages           = {1015--1018},
+  address         = {{Brisbane, Australia}},
+  month           = oct
+}
+
 @InProceedings{Pillai2019,
   title           = {{SuperDepth: Self-Supervised, Super-Resolved Monocular Depth Estimation}},
   author          = {Pillai, Sudeep and Ambru{\c{s}}, Rare{\c{s}} and Gaidon, Adrien},
@@ -12635,6 +13179,17 @@
   month           = jul
 }
 
+%regnet
+@InProceedings{Radosavovic2020,
+  title           = {Designing Network Design Spaces},
+  author          = {Radosavovic, Ilija and Kosaraju, Raj Prateek and Girshick, Ross and He, Kaiming and Dollár, Piotr},
+  booktitle       = {Proc.\ {o}{f} CVPR},
+  year            = {2020},
+  pages           = {10425--10433},
+  address         = {Virtual},
+  month           = jun
+}
+
 @InProceedings{Raff2019,
   title           = {{Barrage of Random Transforms for Adversarially Robust Defense}},
   author          = {Edward Raff and Jared Sylvester and Steven Forsyth and Mark McLean},
@@ -12691,6 +13246,17 @@
   address         = {Vancover, BC, Canada},
   month           = dec,
   keywords        = {Computer Vision; Continual Learning}
+}
+
+# NSynth
+@InProceedings{Ramires2019,
+  title           = {Data Augmentation for Instrument Classification Robust to Audio Effects},
+  author          = {Ramires, António and Serra, Xavier},
+  booktitle       = {Proc.\ {o}{f} {DAFx}},
+  year            = {2019},
+  pages           = {1--6},
+  address         = {Birmingham, {UK}},
+  month           = sep
 }
 
 @InProceedings{Ramirez2018,
@@ -12769,6 +13335,28 @@
   address         = {Brighton, United Kingdom},
   month           = may,
   keywords        = {speech recognition}
+}
+
+%paseplus
+@InProceedings{Ravanelli2020,
+  title           = {Multi-Task Self-Supervised Learning for Robust Speech Recognition},
+  author          = {Ravanelli, Mirco and Zhong, Jianyuan and Pascual, Santiago and Swietojanski, Pawel and Monteiro, Joao and Trmal, Jan and Bengio, Yoshua},
+  booktitle       = {Proc.\ {o}{f} ICASSP},
+  year            = {2020},
+  pages           = {6989--6993},
+  address         = {Virtual},
+  month           = may
+}
+
+% early nwaykshot vision
+@InProceedings{Ravi2017,
+  title           = {Optimization as a Model for Few-Shot Learning},
+  author          = {Sachin Ravi and Hugo Larochelle},
+  booktitle       = {Proc.\ {o}{f} ICLR},
+  year            = {2017},
+  pages           = {1--11},
+  address         = {Toulon, France},
+  month           = apr
 }
 
 @InProceedings{RaviKumar2021,
@@ -13481,8 +14069,8 @@
   year            = {2023},
   pages           = {29441--29454},
   address         = {Honolulu, HI, USA},
-  month           = jul,
-  location        = {Honolulu, Hawaii, USA}
+  address         = {Honolulu, Hawaii, USA},
+  month           = jul
 }
 
 @TechReport{Ryant2018,
@@ -13539,8 +14127,8 @@
   year            = {2015},
   pages           = {1--5},
   address         = {Dresden, Germany},
-  month           = sep,
-  location        = {Dresden, Germany}
+  address         = {Dresden, Germany},
+  month           = sep
 }
 
 @InProceedings{Saito2018,
@@ -13903,6 +14491,17 @@
   year            = {2022},
   address         = {Lugano, Switzerland},
   institution     = {Dalle Molle Institute for Artificial Intelligence}
+}
+
+%wav2vec
+@InProceedings{Schneider2019,
+  title           = {wav2vec: Unsupervised Pre-Training for Speech Recognition},
+  author          = {Steffen Schneider and Alexei Baevski and Ronan Collobert and Michael Auli},
+  booktitle       = {Proc.\ {o}{f} Interspeech},
+  year            = {2019},
+  pages           = {3465--3469},
+  address         = {Graz, Austria},
+  month           = sep
 }
 
 @InProceedings{Schneider2020,
@@ -15098,6 +15697,28 @@
   month           = oct
 }
 
+% efficientnet url = 	 {https://proceedings.mlr.press/v97/tan19a.html},
+@InProceedings{Tan2019,
+  title           = {{E}fficient{N}et: Rethinking Model Scaling for Convolutional Neural Networks},
+  author          = {Tan, Mingxing and Le, Quoc},
+  booktitle       = {Proc.\ {o}{f} ICML},
+  year            = {2019},
+  pages           = {6105--6114},
+  address         = {Long Beach, CA, USA},
+  month           = jun
+}
+
+%mnasnet
+@InProceedings{Tan2019a,
+  title           = {MnasNet: Platform-Aware Neural Architecture Search for Mobile},
+  author          = {Tan, Mingxing and Chen, Bo and Pang, Ruoming and Vasudevan, Vijay and Sandler, Mark and Howard, Andrew and Le, Quoc V.},
+  booktitle       = {Proc.\ {o}{f} CVPR},
+  year            = {2019},
+  pages           = {2815--2823},
+  address         = {Long Beach, CA, USA},
+  month           = jun
+}
+
 @Article{Tan2020,
   title           = {{Learning Complex Spectral Mapping With Gated Convolutional Recurrent Networks for Monaural Speech Enhancement}},
   author          = {Ke Tan and DeLiang Wang},
@@ -16287,6 +16908,17 @@
   month           = nov
 }
 
+% Orig FS-SED
+@InProceedings{Wang2020f,
+  title           = {Few-Shot Sound Event Detection},
+  author          = {Wang, Yu and Salamon, Justin and Bryan, Nicholas J. and Pablo Bello, Juan},
+  booktitle       = {Proc.\ {o}{f} ICASSP},
+  year            = {2020},
+  pages           = {81--85},
+  address         = {Virtual},
+  month           = may
+}
+
 @InProceedings{Wang2021,
   title           = {{Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions}},
   author          = {Wang, Wenhai and Xie, Enze and Li, Xiang and Fan, Deng-Ping and Song, Kaitao and Liang, Ding and Lu, Tong and Luo, Ping and Shao, Ling},
@@ -16570,6 +17202,14 @@
   publisher       = {Prentice-Hall}
 }
 
+@TechReport{Wilkinghoff2023,
+  title           = {FEW-SHOT BIOACOUSTIC EVENT DETECTION},
+  author          = {Wilkinghoff, Kevin and Cornaggia-Urrigshardt, Alessia},
+  year            = {2023},
+  month           = jun,
+  school          = {DCASE2023 Challenge}
+}
+
 @Article{Williamson2016,
   title           = {{{C}omplex {R}atio {M}asking for {M}onaural {S}peech {S}eparation}},
   author          = {{D}onald {S}. {W}illiamson and {Y}uxuan {W}ang and {D}e{L}iang L. {W}ang},
@@ -16675,6 +17315,17 @@
   address         = {Munich, Germany},
   month           = sep,
   keywords        = {Computer Vision; Domain Adaptation}
+}
+
+%insdis
+@InProceedings{Wu2018b,
+  title           = {Unsupervised Feature Learning via Non-parametric Instance Discrimination},
+  author          = {Wu, Zhirong and Xiong, Yuanjun and Yu, Stella X. and Lin, Dahua},
+  booktitle       = {Proc.\ {o}{f} CVPR},
+  year            = {2018},
+  pages           = {3733--3742},
+  address         = {Salt Lake City, UT, USA},
+  month           = jun
 }
 
 @InProceedings{Wu2019,
@@ -17524,6 +18175,16 @@
   keywords        = {Meetings}
 }
 
+# arxive paper alle mit arxive:nummer und monat versehen!
+
+# TorchInfo
+@Misc{Yep2020,
+  title           = {{Torchinfo}},
+  author          = {Tyler Yep},
+  year            = {2020},
+  url             = {https://github.com/TylerYep/torchinfo}
+}
+
 @InProceedings{Yim2017,
   title           = {{A Gift from Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning}},
   author          = {Junho Yim and Donggyo Joo and Jihoon Bae and Junmo Kim},
@@ -17827,6 +18488,17 @@
   month           = nov
 }
 
+%wide_resnet url={https://dx.doi.org/10.5244/C.30.87}
+@InProceedings{Zagoruyko2016,
+  title           = {Wide Residual Networks},
+  author          = {Sergey Zagoruyko and Nikos Komodakis},
+  booktitle       = {Proc.\ {o}{f} BMVC},
+  year            = {2016},
+  pages           = {87.1--87.12},
+  address         = {York, UK},
+  month           = sep
+}
+
 @InProceedings{Zagoruyko2017,
   title           = {{Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer}},
   author          = {Sergey Zagoruyko and Nikos Komodakis},
@@ -17837,6 +18509,17 @@
   month           = apr,
   keywords        = {Computer Vision; Teacher-Student},
   comment         = {Align the student representation of some layers to be equal to the teacher representation of some layer. The authors term it attention transfer. Basically a feature matching approach.}
+}
+
+%barlowtwins url = 	 {https://proceedings.mlr.press/v139/zbontar21a.html},
+@InProceedings{Zbontar2021,
+  title           = {Barlow Twins: Self-Supervised Learning via Redundancy Reduction},
+  author          = {Zbontar, Jure and Jing, Li and Misra, Ishan and LeCun, Yann and Deny, Stephane},
+  booktitle       = {Proc.\ {o}{f} ICML},
+  year            = {2021},
+  pages           = {12310--12320},
+  address         = {Virtual},
+  month           = jul
 }
 
 @InProceedings{Zeiler2010deconvolutional,
@@ -18392,6 +19075,14 @@
   address         = {Brno, Czech Republic},
   month           = oct,
   keywords        = {AEC, speech enhancement}
+}
+
+@TechReport{Zhang2021d,
+  title           = {FEW-SHOT BIOACOUSTIC EVENT DETECTION USING PROTOTYPICAL NETWORK WITH BACKGROUND CLASSs},
+  author          = {Zhang, Yue and Wang, Jun and Zhang, Dawei and Deng, Feng},
+  year            = {2021},
+  month           = jun,
+  school          = {DCASE2021 Challenge}
 }
 
 @Article{Zhang2022,
